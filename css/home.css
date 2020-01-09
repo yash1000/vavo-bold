@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -7,32 +11,50 @@ body{
     background-color: #ff6c3f;
 }
 
-#home-page-content{
-    overflow:  hidden;
-	position: relative;									
-	margin: 0;
-	max-width: 100%;
-	min-height: 101vh;
-	word-wrap: break-word;
+#home{
+    height: 100vh;
 }
 
-#home-page-body {
-    position: relative;
-    z-index: 2;
-}
-
-#page-body{
+.home-page-content{
     padding-top: 188px;
     padding-bottom: 188px;
+    display: inline-block;
 }
 
-.page-body-wrapper{
-    padding: 120px 0;
-    position: relative;
+.home-page-list .list-item a *{
+    display: inline-block;
+    color: black;
 }
 
-.wrapper{
-    width: 1440px;
-    margin: 0 auto;
-    max-width: calc(100% - 160px);
+.list-item{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.home-page-list .list-item a  h4{
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 96px;
+    margin-right: 6px;
+    text-transform: uppercase;
+}
+
+.home-page-list .list-item a  span{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.home-page-list{
+    text-align: left;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.list-item a:hover .item-hover{
+    color: white;
+    transition: all 0.6s;
 }
