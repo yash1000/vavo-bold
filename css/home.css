@@ -8,7 +8,7 @@ body{
 }
 
 .background{
-    background-color: #ff6c3f;
+    background: #ff6c3f;
 }
 
 #home{
@@ -16,33 +16,40 @@ body{
 }
 
 .home-page-content{
-    padding-top: 188px;
-    padding-bottom: 188px;
-    display: inline-block;
+    padding-top: 180px;
+    padding-bottom: 155px;
+    z-index: 1;
 }
 
-.home-page-list .list-item a *{
+.home-page-list #list-item a *{
     display: inline-block;
     color: black;
+    position: sticky;
 }
 
-.list-item{
+#list-item:hover a *{
+    color: #ff6c3f;
+}
+
+#list-item{
     display: inline-block;
     margin-left: 10px;
 }
 
-.home-page-list .list-item a  h4{
+.home-page-list #list-item a  h4{
     font-weight: 400;
     font-size: 82px;
     line-height: 96px;
     margin-right: 6px;
+    transition: all 0.4s;
     text-transform: uppercase;
 }
 
-.home-page-list .list-item a  span{
+.home-page-list #list-item a  span{
     font-weight: 100;
     font-size: 20px;
     line-height: 29px;
+    transition: all 0.4s;
     text-transform: uppercase;
 }
 
@@ -54,7 +61,12 @@ a:hover{
     text-decoration: none;
 }
 
-.list-item a:hover .item-hover{
-    color: white;
-    transition: all 0.6s;
+#home-page-bg img{
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: all 0.4s ease-out;
 }

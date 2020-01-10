@@ -9,54 +9,74 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
 </head>
-<body class="background">
-    <section id="home">
+<body>
+    <section id="home" class="background">
         <div class="container">
             <div class="home-page-content">
                 <div class="home-page-list">
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">ZIGULI</h4>
-                            <span class="oswald item-hover">DIGITAL</span>
+                    <div id="list-item">
+                        <a href="#" id="item-hover" class="ziguli" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">ZIGULI</h4>
+                            <span class="oswald">DIGITAL</span>
                         </a>
                     </div>
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">Fisher & Sharks</h4>
-                            <span class="oswald item-hover">DIGITAL</span>
+                    <div id="list-item">
+                        <a href="#" id="item-hover" class="fisher" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">Fisher & Sharks</h4>
+                            <span class="oswald">DIGITAL</span>
                         </a>
                     </div>
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">The Botany</h4>
-                            <span class="oswald item-hover">Illustration</span>
+                    <div id="list-item"> 
+                        <a href="#" id="item-hover" class="botany" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">The Botany</h4>
+                            <span class="oswald">Illustration</span>
                         </a>
                     </div>
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">Selvsikker</h4>
-                            <span class="oswald item-hover">Branding</span>
+                    <div id="list-item">
+                        <a href="#" id="item-hover" class="selvsikker" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">Selvsikker</h4>
+                            <span class="oswald">Branding</span>
                         </a>
                     </div>
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">Monck</h4>
-                            <span class="oswald item-hover">Branding</span>
+                    <div id="list-item">
+                        <a href="#" id="item-hover" class="monck" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">Monck</h4>
+                            <span class="oswald">Branding</span>
                         </a>
                     </div>
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">Yatai</h4>
-                            <span class="oswald item-hover">Illustration</span>
+                    <div id="list-item">
+                        <a href="#" id="item-hover" class="yatai" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">Yatai</h4>
+                            <span class="oswald">Illustration</span>
                         </a>
                     </div>
-                    <div class="list-item">
-                        <a href="#">
-                            <h4 class="anton item-hover">Carve</h4>
-                            <span class="oswald item-hover">Branding</span>
+                    <div id="list-item">
+                        <a href="#" id="item-hover" class="carve" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                            <h4 class="anton">Carve</h4>
+                            <span class="oswald">Branding</span>
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="home-page-bg">
+            <div id="list-item-bg" class="ziguli">
+                <img src="./assets/images/Ziguli/portfolio-main-10.jpg" alt="">
+            </div>
+            <div id="list-item-bg" class="botany">
+                <img src="./assets/images/Botani/portfolio-main-8.jpg" alt="">
+            </div>
+            <div id="list-item-bg" class="selvsikker">
+                <img src="./assets/images/Selviskker/portfolio-main-7.jpg" alt="">
+            </div>
+            <div id="list-item-bg" class="monck">
+                <img src="./assets/images/Monck/portfolio-main-30-1680x1120.jpg" alt="">
+            </div>
+            <div id="list-item-bg" class="yatai">
+                <img src="./assets/images/Yatai/portfolio-main-28.jpg" alt="">
+            </div>
+            <div id="list-item-bg" class="carve">
+                <img src="./assets/images/Carve/portfolio-main-31-1680x996.jpg" alt="">
             </div>
         </div>
     </section>
@@ -65,5 +85,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/home.js"></script>
 </body>
 </html>
