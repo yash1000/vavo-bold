@@ -21,3 +21,11 @@
     font-size: 16px;
     margin: 20px 0px -1.92px;
 }
+
+.list-wrapper{
+    padding: 120px 0;
+    position: relative;
+}
+.wrapper-med{
+    width: 1080px;
+}
