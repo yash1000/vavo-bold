@@ -1,0 +1,11 @@
+@media (max-width: 1199px) {
+    .home-page-list #list-item a h4 {
+        font-size: 81px;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-page-list #list-item a h4 {
+        font-size: 81px;
+    }
+}
