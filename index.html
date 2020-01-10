@@ -6,52 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vavo Bold</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css">
 </head>
 <body>
+
+    <header>
+        <div class="container">
+          <nav>
+            <div class="navbar-icon">
+              <a href="#">
+                <img src="./assets/images/vavo-logo.svg" alt="" />
+              </a>
+            </div>
+            <div class="toggle">
+              <button id="ham-btn" class="navbar-toggler" type="button">
+                <div class="ham-wrapper icon-open">
+                  <div class="line top-ham"></div>
+                  <!-- <div class="line mid-ham"></div> -->
+                  <div class="line bot-ham"></div>
+                </div>
+              </button>
+            </div>
+  
+            <ul>
+              <li class="animated fadeInUp fast">
+                <a class="dmsans" href="#">Work</a>
+              </li>
+              <li class="animated fadeInUp fast">
+                <a class="dmsans" href="#">About</a>
+              </li>
+              <li class="animated fadeInUp fast">
+                <a class="dmsans" href="#">Journal</a>
+              </li>
+              <li class="animated fadeInUp fast">
+                <a class="dmsans" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
     <section id="home" class="background">
         <div class="container">
             <div class="home-page-content">
                 <div class="home-page-list">
-                    <div id="list-item">
-                        <a href="#" id="item-hover" class="ziguli" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="ziguli" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                        <a href="#" id="item-hover">
                             <h4 class="anton">ZIGULI</h4>
                             <span class="oswald">DIGITAL</span>
                         </a>
                     </div>
-                    <div id="list-item">
-                        <a href="#" id="item-hover" class="fisher" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="fisher" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                        <a href="#" id="item-hover">
                             <h4 class="anton">Fisher & Sharks</h4>
                             <span class="oswald">DIGITAL</span>
                         </a>
                     </div>
-                    <div id="list-item"> 
-                        <a href="#" id="item-hover" class="botany" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="botany" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)"> 
+                        <a href="#" id="item-hover">
                             <h4 class="anton">The Botany</h4>
                             <span class="oswald">Illustration</span>
                         </a>
                     </div>
-                    <div id="list-item">
-                        <a href="#" id="item-hover" class="selvsikker" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="selvsikker" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                        <a href="#" id="item-hover">
                             <h4 class="anton">Selvsikker</h4>
                             <span class="oswald">Branding</span>
                         </a>
                     </div>
-                    <div id="list-item">
-                        <a href="#" id="item-hover" class="monck" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="monck" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                        <a href="#" id="item-hover">
                             <h4 class="anton">Monck</h4>
                             <span class="oswald">Branding</span>
                         </a>
                     </div>
-                    <div id="list-item">
-                        <a href="#" id="item-hover" class="yatai" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="yatai" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                        <a href="#" id="item-hover">
                             <h4 class="anton">Yatai</h4>
                             <span class="oswald">Illustration</span>
                         </a>
                     </div>
-                    <div id="list-item">
-                        <a href="#" id="item-hover" class="carve" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                    <div id="list-item" class="carve" onmouseover="onHover(this.className)" onmouseout="outHover(this.className)">
+                        <a href="#" id="item-hover">
                             <h4 class="anton">Carve</h4>
                             <span class="oswald">Branding</span>
                         </a>
@@ -62,6 +100,11 @@
         <div id="home-page-bg">
             <div id="list-item-bg" class="ziguli">
                 <img src="./assets/images/Ziguli/portfolio-main-10.jpg" alt="">
+            </div>
+            <div id="list-item-bg" class="fisher">
+                <video loop="true" muted="muted" autoplay id="fisher">
+                    <source src="./assets/images/Fisher-n-sharks/mc.mp4" type="video/mp4">
+                </video>
             </div>
             <div id="list-item-bg" class="botany">
                 <img src="./assets/images/Botani/portfolio-main-8.jpg" alt="">
@@ -86,5 +129,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="./js/home.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
