@@ -1,0 +1,19 @@
+1. Copy 3 link tags(animate,main,main-responsive) as it is to your html page
+2. copy main.js script tag at bottom of the body.
+3. copy header tag as it is.
+4. if you want to change color of fonts in header:-
+    4.1 in your css overide below content
+        header ul li a,header ul li a:hover{
+            color: //your color//
+        }
+
+        .line{
+            bacground-color: //your color//
+        }
+
+        default logo given is black
+        but if you want white logo:
+            in header tag inside navbar-logo tag,
+                change image src to ./assets/images/vavo-logo-light.svg
+
+
