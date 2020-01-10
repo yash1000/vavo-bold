@@ -1,0 +1,47 @@
+body {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+content-wrapper {
+  width: 100%;
+  /* padding: 0 !important; */
+}
+
+.form-wrapper {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-text-area {
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+}
+
+.deatails-section {
+  padding-top: 50px;
+}
+
+.deatails-section div {
+  padding-right: 5px;
+}
+
+.deatails-section input {
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#post-button {
+  display: block;
+  margin-top: 30px;
+  height: 40px;
+  width: 20%;
+  border: none;
+  background-color: #ffffff;
+}
