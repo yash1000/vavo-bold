@@ -1,38 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .background{
-    background-color: #ff6c3f;
+    background: #ff6c3f;
 }
 
-#home-page-content{
-    overflow:  hidden;
-	position: relative;									
-	margin: 0;
-	max-width: 100%;
-	min-height: 101vh;
-	word-wrap: break-word;
+.navbar-active{
+    background-color: #ff6c3f !important;
+    z-index: 100;
 }
 
-#home-page-body {
-    position: relative;
-    z-index: 2;
+#home{
+    height: 100vh;
 }
 
-#page-body{
-    padding-top: 188px;
-    padding-bottom: 188px;
+.home-page-content{
+    padding-top: 175px;
+    padding-bottom: 155px;
+    z-index: 1;
 }
 
-.page-body-wrapper{
-    padding: 120px 0;
-    position: relative;
+.home-page-list #list-item a *{
+    display: inline-block;
+    color: black;
+    position: sticky;
 }
 
-.wrapper{
-    width: 1440px;
-    margin: 0 auto;
-    max-width: calc(100% - 160px);
+.home-page-list #list-item{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#list-item a h4, #list-item a span{
+    transform: translateY(50%) rotate(-5deg);
+    transform-origin: top right;
+    opacity: 0;
+}
+
+.home-page-list #list-item a  h4{
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 96px;
+    margin-right: 6px;
+    transition: all 0.4s;
+    text-transform: uppercase;
+}
+
+.home-page-list #list-item a{
+    height: 100%;
+    width: 100%;
+}
+
+.home-page-list #list-item a  span{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 29px;
+    transition: all 0.4s;
+    text-transform: uppercase;
+}
+
+.home-page-list{
+    text-align: left;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#home-page-bg img{
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    /* transition: all 0.4s ease-out; */
+}
+
+#home-page-bg video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    min-width: 100%;
+    z-index: -1;
+    background-size: cover;
 }
