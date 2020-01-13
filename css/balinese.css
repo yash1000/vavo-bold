@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.post-name{
+    max-width: 780px;
+    margin: auto;
+    padding-top: calc(60px + 100px + 25px);
+    padding-bottom: 100px;
+}
+
+.post-name h1{
+    color: white;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 96px;
+}
+
+.post-details{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgba(255,255,255,.48);
+}
+
+.post-admin, .post-date{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.post-admin a{
+    color: rgba(255,255,255,.48);
+    text-decoration: none;
+    margin: auto;
+}
+
+.post-admin::after, .post-date::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 13px;
+    height: 1px;
+    background-color: rgba(255,255,255,.28)
+}
+
+#middle img{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-img{
+    margin-bottom: 80px;
+}
+
+.gallery-width{
+    width: calc(100% - 30px);
+    margin-top: 30px;
+    height: 350px;
+}
+
+.page-content{
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 780px;
+    margin: auto;
+    color: rgba(255,255,255,.69);
+    margin-top: 100px;
+}
+
+.middle-img{
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.middle-content-title-left{
+    margin-top: 100px;
+}
+
+.middle-content-title-left h5{
+    font-weight: 400;
+    color: rgba(255,255,255,.48);
+    text-align: left;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.middle-content-left p{
+    color: rgba(255,255,255,.69);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.middle-content-right h4{
+    font-size: 30px;
+    line-height: 41px;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.middle-content-right h6{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.middle-content-right p{
+    margin-top: 40px;
+    color: rgba(255,255,255,.69);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.content-wrapper{
+    padding-left: 38px;
+}
