@@ -99,6 +99,11 @@ a:hover{
     background-size: cover;
 }
 
+#footer{
+    transform: translateY(50%);
+    opacity: 0;
+}
+
 .footer-content h6{
     font-size: 15px;
     line-height: 21px;

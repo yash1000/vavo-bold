@@ -18,105 +18,72 @@ function outHover(obj){
 }
 
 $(window).on('load', function(){
+    $("#list-item h4, #list-item span").css({
+        "transform":"rotate(0)",
+        "transformOrigin":"top right",
+        "transition":"all 0.5s",
+        "opacity":"1"
+    });
+
     $(".ziguli h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
         "transitionDelay":"0s",
-        "opacity":"1"
     });
+
     $(".fisher h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.1s",
-        "opacity":"1"
+        "transitionDelay":"0.1s"
     });
+
     $(".botany h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.2s",
-        "opacity":"1"
+        "transitionDelay":"0.2s"
     });
+
     $(".selvsikker h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.3s",
-        "opacity":"1"
+        "transitionDelay":"0.3s"
     });
+
     $(".monck h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.4s",
-        "opacity":"1"
+        "transitionDelay":"0.4s"
     });
+
     $(".yatai h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.5s",
-        "opacity":"1"
+        "transitionDelay":"0.5s"
     });
+
     $(".carve h4").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.6s",
-        "opacity":"1"
+        "transitionDelay":"0.6s"
     });
-
-
 
     $(".ziguli span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.3s",
-        "opacity":"1"
+        "transitionDelay":"0.3s"
     });
+
     $(".fisher span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.13s",
-        "opacity":"1"
+        "transitionDelay":"0.13s"
     });
+
     $(".botany span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.23s",
-        "opacity":"1"
+        "transitionDelay":"0.23s"
     });
+
     $(".selvsikker span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.33s",
-        "opacity":"1"
+        "transitionDelay":"0.33s"
     });
+
     $(".monck span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.43s",
-        "opacity":"1"
+        "transitionDelay":"0.43s"
     });
+
     $(".yatai span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.53s",
-        "opacity":"1"
+        "transitionDelay":"0.53s"
     });
+
     $(".carve span").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 0.95",
-        "transitionDelay":"0.63s",
-        "opacity":"1"
+        "transitionDelay":"0.63s"
     });
+
+    $("#footer").css({
+        "transform":"translateY(0)",
+        "opacity":"1",
+        "transition":"all 0.5s"
+    })
 });
