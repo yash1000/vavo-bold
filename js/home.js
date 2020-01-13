@@ -14,8 +14,7 @@ function outHover(obj){
     $("."+obj+" h4").css( {"color":"black","transition":"color 1s"} );
     $("."+obj+" span").css( {"color":"black","transition":"color 1s"} );
     $("."+obj+" img").css({"z-index":"-1","opacity":"0","transition":"all 0.9s"});
-    $("."+obj+" video").css({"z-index":"-1","opacity":"0","transition":"all 0.9s"});    
-    $("."+obj+" video")[0];    
+    $("."+obj+" video").css({"z-index":"-1","opacity":"0","transition":"all 0.9s"});      
 }
 
 $(window).on('load', function(){
