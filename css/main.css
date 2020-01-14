@@ -1,6 +1,9 @@
 /* font-family: 'Oswald', sans-serif; */
 @import url('./fonts.css');
 
+body{
+    overflow: hidden;
+}
 .anton{
     font-family: 'Anton', sans-serif;
 }
@@ -113,4 +116,156 @@ button#ham-btn {
     box-sizing: border-box;
     text-align: right;
     display: none;
+}
+
+.nav-hover{
+    
+    position: relative!important;
+    padding: 0;
+    margin: 0.5rem;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+}
+.nav-hover-white{
+    color: white!important;
+}
+.nav-hover::before{
+    animation: nav-hover-out 0.2s ease-in-out;
+    animation-duration: 200ms;
+    transform-origin: left;
+    position: absolute!important;
+    content: '';
+    height: 0px;
+    width: 100%;
+    background-color: white;
+    /* top: 50%;
+    right: 0; */
+    bottom: 0;
+    left: 0;
+    /* transform: translateY(-50%); */
+    visibility: hidden;
+}
+
+
+.nav-hover:hover::before,.navigation-selected::before {
+    transform-origin: left;
+    animation: nav-hover-in 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    position: absolute!important;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    /* top: 50%;
+    right: 0; */
+    bottom: 0;
+    left: 0;
+    /* transform: translateY(-50%); */
+    visibility: visible;
+}
+.nav-hover:hover,.navigation-selected{
+    transition: 0.1s all ease;
+    color: #ea6651!important;
+}
+
+@keyframes nav-hover-out{
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0);
+    }
+}
+
+@keyframes nav-hover-in{
+    0%{
+        height: 3px;
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+        height: 3px;
+    }
+}
+
+@keyframes sidebar-animation{
+    0%{
+        transform: translate(50%,-50%) rotate(270deg); 
+        width: 100vh;
+        top: 50%;
+        right: 0;
+    }
+    100%{
+        transform: translate(46%,-50%) rotate(270deg); 
+        width: 100vh;
+        top: 50%;
+        right: 0;
+    }
+}
+
+
+
+.sidebar {
+    overflow: hidden;
+    animation:sidebar-animation 1s cubic-bezier(0.04, 0.03, 0, 1.01);
+        right: 0;
+        position: absolute;
+        /* left: 50%; */
+        top: 50%;
+        transform: translate(46%,-50%) rotate(270deg);
+        width: 100vh;
+        display: none;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: fit-content;
+    margin: 0px auto;
+    /* margin-right: 50%; */
+    /* transform: translateX(50%); */
+    /* float: right; */
+}
+.sidebar ul li {
+    margin-left: 15px;
+    display: inline-block;
+    /* height: 15px; */
+}
+
+.sidebar a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sidebar-share {
+    overflow: hidden;
+    animation:sidebar-animation 1.5s cubic-bezier(0.04, 0.03, 0, 1.01);
+    /* animation-delay: 500ms; */
+    right: 0;
+        position: absolute;
+        /* left: 50%; */
+        top: 50%;
+        transform: translate(46%,-50%) rotate(270deg);
+        width: 100vh;
+}
+
+.sidebar-share ul {
+    list-style-type: none;
+    padding: 0;
+    width: fit-content;
+    margin: 0px auto;
+    /* margin-right: 50%; */
+    /* transform: translateX(50%); */
+    /* float: right; */
+}
+.sidebar-share ul li {
+    display: inline-block;
+    /* height: 15px; */
+}
+
+.sidebar-share a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
 }
