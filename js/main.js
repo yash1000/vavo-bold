@@ -5,4 +5,11 @@ $(document).ready(function(){
         // $(".header-toggle-close").toggleClass("header-toggle-open");
         console.log("object")
     })
+
+
+    $('#sidebar-share-link').click(function(){
+        $('.sidebar-share').css('display','none');
+        $('.sidebar').css('display','block');
+    })
 })
+
