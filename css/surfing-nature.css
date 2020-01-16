@@ -1,0 +1,489 @@
+@import url('./fonts.css');
+
+
+body
+{
+    font-family: 'DM Sans', sans-serif;
+    background: #000;
+    color: rgba(255,255,255,.69);
+    width: 100%;
+    
+}
+
+.primary-color
+{
+    color: #ffffff;
+}
+.secondary-color
+{
+    color:rgba(255,255,255,.48) ;
+}
+
+
+
+.spacer-big
+{
+    display: block;
+    height: 100px;
+}
+.spacer-medium
+{
+    display: block;
+    height: 80px;
+}
+.spacer-avg
+{
+    display: block;
+    height: 60px;
+}
+.spacer-small
+{
+    display: block;
+    height: 40px;
+}
+.spacer-mini
+{
+    display: block;
+    height: 20px;
+}
+
+
+
+.site-main{
+    height: auto;
+    margin: 0 auto 10.5rem;
+}
+
+.hero-page{
+    height: auto;
+    margin: 10.5rem auto 0;
+}
+
+.wrapper-small{
+    width: 54.5%;
+    margin: auto;
+}
+
+.hero-wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+.hero-image-wrapper{
+    width: 97.3%;
+    margin: auto;
+}
+
+.hero-page h1{
+    font-size: 82px;
+    line-height: 96px;
+    font-weight: 700;
+}
+
+
+.hero-page span{
+    font-size: 12px;
+    line-height: 19px;
+    
+}
+
+.hero-page .post{
+    margin-top: 40px;
+}
+
+.hero-page .post-meta .post a:hover{
+    color: #ffffff; 
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+
+.post-date::after, .post-author::after {
+    content: "";
+    display: inline-block;
+    top: 50%;
+    /* right: -22px; */
+    width: 13px;
+    transform: translateY(-3px);
+    margin-left: 1%;
+    margin-right: 0.7%;
+    height: 1px;
+    background-color:rgba(255,255,255,.28);
+}
+
+.hero-page h6{
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 0;
+    
+}
+
+.hero-page p{
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.hero-page h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 0;
+    
+}
+
+.hero-page h5{
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.hero-image{
+ 
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-image{
+ 
+    height: 100%;
+    width: 100%;
+    margin:185px  auto 195px;
+}
+
+.hero-content h3{
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.hero-content p{
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+.hero-content .hero-wrapper .sublevel .col-md-6{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main-image1{
+ 
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+    object-fit: cover;
+    
+}
+
+.hero-content h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+
+
+.single-pagination {
+    border-top: 1px solid rgba(0,0,0,0.11);
+    border-bottom: 1px solid rgba(0,0,0,0.11);
+    padding: 50px 0;
+    margin-top: 100px;
+    border-color: rgba(255,255,255,.28);
+    margin-bottom: 100px;
+}  
+
+.pagination li {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    
+}
+
+.pagination li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    display: inline-block;
+    padding: 0 5px;
+    max-width: 100%;
+    text-decoration: none;
+
+}
+ .pagination li a .text {
+    color: rgba(255,255,255,.48);
+}
+ .pagination li a .post-title {
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-top: 3px;
+    color: #fff;
+    letter-spacing: 0em;
+}
+
+.pagination li .post-title:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+}
+
+.single-pagination ul{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 2rem;
+}
+
+label{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255,255,255,.48);
+    line-height: 24px;
+    display: block;
+
+}
+
+.text-area
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.28);
+    height: 100px;
+    color: #fff;
+    padding: 10px 0px 2px 0;
+    border-radius: 0;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    padding: 0rem;
+    background: transparent;
+    border-color: rgba(255,255,255,.28);
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,.28);
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.text-area:focus{
+    outline: none;
+
+}
+
+.submit{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        padding: 10px 27px;
+        margin-bottom: 5px;
+        color: #000;
+        background: #fff;
+        display: inline-block;
+        border: none;
+        margin-top: 50px;
+        width: auto;
+        height: 2.5rem;
+        position: relative;
+        border-radius: 0;
+}
+
+input[type="submit"]:hover, .button:hover, button:not(.sr-button):hover {
+    background: rgba(255,255,255,.69);
+    color: #000;
+    transition: 0.4s ease;
+}
+
+/* ---------------------------------------media queries-------------------------------------- */
+
+@media only screen and (max-width: 1199px){
+
+    .container{
+        max-width: 1140px;
+    }
+    .hero-image-wrapper {
+        width: 93.3%;
+        margin: auto;
+    }
+}
+    
+
+
+@media only screen and (max-width: 991px){
+
+    .hero-page {
+        height: auto;
+        margin: 8rem auto 0;
+    }
+    .hero-wrapper {
+        width: 81%;
+        margin: auto;
+    }
+    .hero-image-wrapper {
+        width: 90.5%;
+        margin: auto;
+    }
+    .hero-page h1{
+        font-size: 74px;
+        line-height: 88px;
+    }
+    .hero-page p{
+        font-size: 14px;   
+    }
+    .hero-content p{
+        font-size: 14px;   
+    }
+    .hero-page h3{
+        font-size: 28px;
+        line-height: 38px;   
+    }
+    .hero-content h3{
+        font-size: 28px;
+        line-height: 38px;   
+    }
+    .main-image{   
+        margin:155px  auto 155px;
+    }
+
+    .spacer-big{
+        height: 80px;
+    }
+    .spacer-medium{
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .hero-page h1{
+        font-size: 54px;
+        line-height: 57px;
+        margin-bottom: 0;
+    }
+    .hero-wrapper {
+        width: 93%;
+        margin: auto;
+    }
+    .hero-image-wrapper {
+        width: 93.5%;
+        margin: auto;
+    }
+    .hero-page .post{
+        margin-top: 30px;
+    }
+    .spacer-small   
+    {
+        height: 30px;
+    }
+    .hero-page h3{
+        font-size: 25px;
+        line-height: 34px;   
+    }
+    .hero-page h5{
+        font-size: 18px;
+        line-height: 26px; 
+    }
+    .hero-content h3{
+        font-size: 25px;
+        line-height: 34px;   
+    }
+    .wrapper-small {
+        width: 60.5%;
+        margin: auto;
+    }
+    .hero-content h6{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    input{
+        margin-bottom: 2rem;
+    }
+    .submit{
+        margin-top: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 575px){
+    .hero-page {
+        margin: 7rem auto 0;
+    }
+    .hero-page .post{
+        margin-top: 20px;
+    }
+    .hero-wrapper {
+        width: 94%;
+        margin: auto;
+    }
+    .spacer-big{
+        height: 60px;
+    }
+    .spacer-small   
+    {
+        height: 25px;
+    }
+    .main-image{   
+        margin:115px  auto 115px;
+    }
+    .spacer-medium{
+        height: 50px;
+    }
+    .wrapper-small {
+        width: 82.5%;
+        margin: auto;
+    }
+    .pagination li a .post-title {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .hero-page h1{
+        font-size: 34px;
+        line-height: 43px;
+    }
+    .hero-wrapper {
+        width: 90%;
+        margin: auto;
+    }
+    .hero-image-wrapper {
+        width: 90.5%;
+        margin: auto;
+    }
+    .hero-page h3{
+        font-size: 23px;
+        line-height: 32px;   
+    }
+    .hero-content h3{
+        font-size: 23px;
+        line-height: 32px;   
+    }
+    .wrapper-small {
+        width: 97.5%;
+        margin: auto;
+    }
+    .pagination li a .post-title {
+        font-size: 12px;
+    }
+}
