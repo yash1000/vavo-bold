@@ -2,7 +2,7 @@
 @import url('./fonts.css');
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .anton{
     font-family: 'Anton', sans-serif;
@@ -190,13 +190,13 @@ button#ham-btn {
 @keyframes sidebar-animation{
     0%{
         transform: translate(50%,-50%) rotate(270deg); 
-        width: 100vh;
+        width: 90vh;
         top: 50%;
         right: 0;
     }
     100%{
         transform: translate(46%,-50%) rotate(270deg); 
-        width: 100vh;
+        width: 90vh;
         top: 50%;
         right: 0;
     }
@@ -212,7 +212,7 @@ button#ham-btn {
         /* left: 50%; */
         top: 50%;
         transform: translate(46%,-50%) rotate(270deg);
-        width: 100vh;
+        width: 90vh;
         display: none;
     
 }
