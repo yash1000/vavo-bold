@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+.banner{
+    background-image: url('../assets/images/Journal/fresh_storm/blog-single-14.jpg');
+    min-height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FAQS{
+    background-color: black;
+    height: auto;
+}
+.question{
+    color: white;
+    font-size: 14px;
+    padding: 15px 0px 15px 0px;
+}
+.answer{
+    color: white;
+    font-size: 14px;
+    opacity: 0.69;
+    padding: 15px 0px 15px 0px;
+    line-height: 1.7;
+}
+.quote{
+    color: white;
+    font-size: 19px;
+    padding-top: 60px;
+}
+.blockquote{
+    border-left: 2px solid rgba(255,255,255,.28);
+    padding-left: 30px;
+    color: white;
+}
+.spacing{
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.background{
+    background-color: black;
+}
+.primary-color{
+    color: white;
+}
+.single-pagination {
+    border-top: 1px solid rgba(0,0,0,0.11);
+    border-bottom: 1px solid rgba(0,0,0,0.11);
+    padding: 50px 0;
+    margin-top: 100px;
+    border-color: rgba(255,255,255,.28);
+    margin-bottom: 100px;
+} 
+.pagination li {
+    padding: 0;
+    display: inline-block;
+    margin: 0;  
+}
+.pagination li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    display: inline-block;
+    padding: 0 5px;
+    max-width: 100%;
+    text-decoration: none;
+}
+.pagination li a .text {
+    color: rgba(255,255,255,.48);
+}
+.pagination li a .post-title {
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-top: 3px;
+    color: #fff;
+    letter-spacing: 0em;
+}
+.single-pagination ul{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.form-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 2rem;
+}
+label{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255,255,255,.48);
+    line-height: 24px;
+    display: block;
+}
+.text-area{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.28);
+    height: 100px;
+    color: #fff;
+    padding: 10px 0px 2px 0;
+    border-radius: 0;
+    margin-bottom: 50px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    padding: 0rem;
+    background: transparent;
+    border-color: rgba(255,255,255,.28);
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,.28);
+}
+input:focus{
+    outline: none;
+}
+.text-area:focus{
+    outline: none;
+}
+.submit{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 10px 27px;
+    margin-bottom: 5px;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    border: none;
+    margin-top: 50px;
+    width: auto;
+    position: relative;
+    border-radius: 0;
+}
+
+@media only screen and (max-width:1199px){
+    .spacing{
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+}
+
+@media only screen and (max-width:991px){
+    .spacing{
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+}
+
+@media only screen and (max-width:767px){
+    .spacing{
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+}
+@media only screen and (max-width:575px){
+    .spacing{
+        width: 450px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+}
