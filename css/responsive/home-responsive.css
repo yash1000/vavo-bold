@@ -2,10 +2,74 @@
     .home-page-list #list-item a h4 {
         font-size: 81px;
     }
+
+    .home-page-content {
+        padding-top: 115px;
+        padding-bottom: 80px;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 991px) {
+    body{
+        overflow: auto;
+    }
+
+    #home{
+        height: 110vh;
+    }
+
+    .home-page-content {
+        padding-top: 100px;
+    }
+
+    .home-page-list {
+        line-height: 15px;
+    }
+
+    #list-item a:hover h4, #list-item a:hover span{
+        color: black !important;
+        transition: all 1s ease-in;
+    }
+
     .home-page-list #list-item a h4 {
-        font-size: 81px;
+        font-size: 60px;
+    }
+
+    #home-page-bg img{
+        display: none;
+    }
+
+    #home-page-bg video{
+        display: none;
+    }
+
+    .footer-content li a {
+        padding-right: 20px;
     }
 }
+
+@media (max-width: 767px) {
+    .home-page-list #list-item a h4 {
+        font-size: 40px;
+    }
+
+    .home-page-list {
+        line-height: 0;
+    }
+
+    .copyright h6 {
+        float: left;
+    }
+}
+
+@media (max-width: 575px) {
+    #home{
+        height: 110vh;
+    }
+
+    .home-page-list #list-item a span {
+        font-size: 15px;
+    }
+}
+

@@ -62,15 +62,22 @@
 
         <div class="journal-body">
             <div class="container">
-                <div class="list-wrapper wrapper-med">
-                    <div class="li-item dmsans text-left">
-                        <a href="#">
-                            <h4 class="entry-title">Welcome Caroline</h4>
-                            <div class="post-title">
-                                <span class="post-date">July 12, 2019</span>
-                                <span class="post-cat">people</span>
+                <div class="row">
+                    <div class="col-md-9" id="mouseDiv" onmouseover="addImage()" onmouseout="removeImage()" onmousemove="moveImage(event)"> 
+                        <div class="list-wrapper wrapper-med">
+                            <div class="li-item dmsans text-left">
+                                <a href="#">
+                                    <h4 class="entry-title">Welcome Caroline</h4>
+                                    <div class="post-title">
+                                        <span class="post-date">July 12, 2019</span>
+                                        <span class="post-cat">people</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img class='caroline' id='myImage' src='../vavo-bold/assets/images/Journal/welcome_carolina/blog-single-11.jpg'>
                     </div>
                 </div>
                 <div class="wrapper-med">
@@ -159,5 +166,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/journal.js"></script>
 </body>
 </html>
