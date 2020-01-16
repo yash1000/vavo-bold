@@ -59,6 +59,18 @@ a{
     width: calc(100% - 210px);
     font-size: 30px;
 }
+.caroline{
+    width: 500px;
+    height: 300px;
+    float: right;
+    display: none;
+    position: absolute;
+    left: -65%;
+    pointer-events: none;
+}
+.entry-title .caroline:hover{
+    visibility: visible;
+}
 .post-title{
     margin: 10px 0 20px 0;
 }
