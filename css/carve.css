@@ -1,0 +1,19 @@
+body{
+    background-image: url('../assets/images/Carve/hero-carve.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+.hero-gif{
+    display: flex;
+    height: 100vh;
+}
+.hero-gif img{
+    margin: auto;
+    height: 17rem;
+    width: 17rem;
+}
