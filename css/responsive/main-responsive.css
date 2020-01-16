@@ -70,6 +70,10 @@
         display: none;
         /* margin-left: auto; */
     }
+    .nav-hover::before{
+        display: none;
+
+    }
 
   
 
