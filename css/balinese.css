@@ -7,13 +7,13 @@ body{
 }
 
 nav{
-    position: fixed;
-    top: 0;
-    height: fit-content ;
-    max-width: 1110px;
-    width: 100%;
-    background-color: transparent;
-    z-index: 100;
+    z-index: 1000;
+}
+
+.nav-overlay{
+    z-index: 20;
+    height: 100vh;
+    background-color: black !important;
 }
 
 .navbar-icon{
@@ -407,10 +407,10 @@ button#ham-btn {
     text-decoration: none;
 }
 
-.sidebar-share a, .sidebar a {
+.sidebar-share div, .sidebar a {
     text-decoration: none;
-    color: white;
-    font-size: 13px;
+    color: white !important;
+    font-size: 13px !important;
     font-weight: 400 !important;
 }
 
