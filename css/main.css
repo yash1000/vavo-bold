@@ -51,6 +51,52 @@ header ul li{
     padding: 0.5rem;
    
 }
+
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5rem;
+   
+}
+
+header ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a span{
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+header ul li a .default{
+    transform: translateY(100%);
+}
+
+header ul li a:hover .default{
+    transform: translateY(200%);
+    opacity: 0;
+}
+
+header ul li a .navlist-hover{
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+header ul li a:hover .navlist-hover{
+    transform: translateY(0%);
+    opacity: 1;
+}
+
 header ul li a,header ul li a:hover{
     font-size: .7rem;
     text-decoration: none;
@@ -119,7 +165,6 @@ button#ham-btn {
 }
 
 .nav-hover{
-    
     position: relative!important;
     padding: 0;
     margin: 0.5rem;
