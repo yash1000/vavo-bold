@@ -1,0 +1,117 @@
+body{
+    background-image: url('../assets/images/Carve/hero-carve.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+.hero-gif{
+    display: flex;
+    height: 100vh;
+}
+.hero-gif img{
+    margin: auto;
+    height: 12rem;
+    width: 12rem;
+}
+
+.vavo-small-heading{
+    font-size: 0.8rem;
+    /* line-height: 29px; */
+    margin-bottom: 8rem;
+}
+.vavo-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.vavo-content-heading{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.vavo-content-para{
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+}
+.vavo-content-para-light{
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+    opacity: 0.5;
+}
+section{
+    margin-bottom: 7rem;
+}
+
+
+.textile-sample img{
+    width: 200px;
+    height: 300px;
+}
+
+#grid-img-first{
+    float: right;
+    margin-right: 10px;
+}
+#grid-img-second{
+    margin-top: 100px;
+    margin-left: 10px;
+    float: left;
+}
+.grid-sizer,
+.grid-item { width: 50%;
+    /* max-width: 100%; */
+}
+/* 2 columns wide */
+.project-image{
+    height: inherit;
+    width: inherit;
+}
+
+.carve-gallery img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#grid-item-6{
+     width: calc(50% - 80px);
+    padding: 30% 0% 1% 4%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+#grid-item-5{
+     width: calc(50% - 80px);
+    padding: 7% 2% 1% 1%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+#grid-item-4{
+     width: calc(50% - 80px);
+    padding: 10% 2% 1% 3%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+#grid-item-3{
+     width: calc(50% - 80px);
+    padding: 1% 0% 1% 3%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+#grid-item-2{
+     width: calc(50% - 80px);
+    padding: 0% 2% 1% 1%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+#grid-item-1{
+     width: calc(50% - 80px);
+    padding: 5% 3% 1% 0%;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+
+
