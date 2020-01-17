@@ -91,12 +91,12 @@ header ul li a .default{
 }
 
 header ul li a:hover .default{
-    transform: translateY(140%);
+    transform: translateY(100%);
     opacity: 0;
 }
 
 header ul li a .navlist-hover{
-    transform: translateY(-40%);
+    transform: translateY(-200%);
     opacity: 0;
 }
 
@@ -194,7 +194,7 @@ button#ham-btn {
     background-color: black;
     /* top: 50%;
     right: 0; */
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     /* transform: translateY(-50%); */
     /* visibility: hidden; */
@@ -212,7 +212,7 @@ button#ham-btn {
     background-color: black;
     /* top: 50%;
     right: 0; */
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     /* transform: translateY(-50%); */
     /* visibility: visible; */
