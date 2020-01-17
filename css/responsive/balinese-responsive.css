@@ -93,15 +93,38 @@
 
     .page-content {
         margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     .pagination {
         margin-top: 570px;
     }
+
+    #middle img {
+        height: 90%;
+        width: 97%;
+    }
+
+    .middle-content-left p {
+        padding-right: 20px;
+    }
+
+    .content-wrapper {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .navbar-icon img {
+        height: 50px;
+        width: 80px;
+    }
+
+    button#ham-btn {
+        margin-top: 10px;
+    }
 }
 
-@media (max-width: 400px){
+@media (max-width: 410px){
     #middle .bottom-gallery-img {
         width: 320px;
     }
@@ -127,6 +150,7 @@
         margin-top: 10px;
         float: left;
     }
+
 }
 
 @media (max-width: 330px){
