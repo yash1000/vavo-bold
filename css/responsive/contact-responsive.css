@@ -1,0 +1,59 @@
+/* @media(max-width:1199px){
+    
+} */
+
+@media(max-width:991px){
+    .gettxt{
+        font-size: 70px;
+    }
+
+    .passiontxt{
+        font-size: 18px;
+    }
+
+    .contactimg{
+        margin-top: 50px;
+    }
+    .wetxt{
+        font-size: 22px;
+    }
+    .customtextarea{
+        width: 337px;
+    }
+}
+
+@media(max-width:767px){    
+    .gettxt{
+        font-size: 65px;
+    }
+
+    .passiontxt{
+        font-size: 16px;
+    }
+
+    .contactimg{
+        margin-top: 50px;
+    }
+    
+    .wetxt{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:575px){    
+    .gettxt{
+        font-size: 63px;
+    }
+
+    .passiontxt{
+        font-size: 14px;
+    }
+
+    .contactimg{
+        margin-top: 50px;
+    }
+    
+    .wetxt{
+        font-size: 18px;
+    }
+}
