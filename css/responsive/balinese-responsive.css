@@ -1,0 +1,140 @@
+@media (max-width: 1199px){
+    #middle .bottom-gallery-img a:first-of-type {
+        margin-left: 11.33%;
+    }
+}
+
+@media (max-width: 991px){
+    .post-name h1 {
+        font-size: 74px;
+    }
+    
+    .page-content {
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: 40px;
+    }
+
+    #middle .bottom-gallery-img {
+        margin-left: auto;
+        width: 710px;
+    }
+
+    .content-wrapper {
+        padding-left: 0;
+    }
+
+    .pagination {
+        max-width: calc(100% - 80px);
+    }
+
+    .middle-content-left p {
+        font-size: 12px;
+    }
+
+    .middle-content-right p {
+        font-size: 14px;
+    }
+
+    #middle .bottom-gallery-img a:first-of-type {
+        margin-left: 2.33%;
+    }
+}
+
+@media (max-width: 767px){
+    
+    .post-name h1 {
+        font-size: 54px;
+        line-height: 57px;
+    }
+
+    #bottom-img-2{
+        margin-top: 30px;
+    }
+
+    #middle .bottom-gallery-img {
+        margin-top: 40px;
+    }
+
+    #middle .bottom-gallery-img a:first-of-type {
+        margin-left: 6%;
+    }
+
+    .pagination {
+        margin-top: 940px;
+    }
+
+    #middle .bottom-gallery-img {
+        width: 576px;
+    }
+
+    .page-content {
+        margin-left: 40px;
+    }
+
+    .pagination-list .prev a .prev-post, .pagination-list .next a .next-post {
+        font-size: 12px;
+    }
+
+    .pagination-list .prev a .post-title, .pagination-list .next a .post-title {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 575px){
+    #middle .bottom-gallery-img {
+        width: 400px;
+    }
+
+    #middle .bottom-gallery-img a:first-of-type {
+        margin-left: 4%;
+    }
+
+    .page-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .pagination {
+        margin-top: 570px;
+    }
+}
+
+@media (max-width: 400px){
+    #middle .bottom-gallery-img {
+        width: 320px;
+    }
+
+    .post-name h1 {
+        font-size: 34px;
+    }
+
+    .post-details {
+        width: 95%;
+    }
+
+    .pagination {
+        margin-top: 350px;
+    }
+
+    .pagination-list li {
+        display: block;
+    }
+
+    .pagination-list .next {
+        text-align: left;
+        margin-top: 10px;
+        float: left;
+    }
+}
+
+@media (max-width: 330px){
+    #middle .bottom-gallery-img {
+        width: 250px;
+    }
+
+    .pagination {
+        margin-top: 160px;
+    }
+}

@@ -35,12 +35,20 @@ nav{
     height: 70px;
     width: 100px;
 }
+
+.list-box{
+    height: 25px;
+    width: auto;
+    overflow: hidden;
+}
+
 header ul{
     margin: 0;
     padding: 0;
     float: right;
     display: inline-block;
     /* margin-left: auto; */
+    margin-top: 10px;
 }
 .navbar-active{
     display: block;
@@ -51,6 +59,52 @@ header ul li{
     padding: 0.5rem;
    
 }
+
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5rem;
+   
+}
+
+header ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a span{
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+header ul li a .default{
+    transform: translateY(0%);
+}
+
+header ul li a:hover .default{
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+header ul li a .navlist-hover{
+    transform: translateY(-200%);
+    opacity: 0;
+}
+
+header ul li a:hover .navlist-hover{
+    transform: translateY(-100%);
+    opacity: 1;
+}
+
 header ul li a,header ul li a:hover{
     font-size: .7rem;
     text-decoration: none;
@@ -119,7 +173,6 @@ button#ham-btn {
 }
 
 .nav-hover{
-    
     position: relative!important;
     padding: 0;
     margin: 0.5rem;
@@ -127,29 +180,31 @@ button#ham-btn {
     letter-spacing: 0.1em;
 }
 .nav-hover-white{
-    color: white!important;
+    color: black!important;
 }
 .nav-hover::before{
-    animation: nav-hover-out 0.2s ease-in-out;
-    animation-duration: 200ms;
-    transform-origin: left;
+    transition: width 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    /* animation: nav-hover-out 1s ease-in-out; */
+    /* animation-duration: 200ms; */
+    /* transform-origin: left; */
     position: absolute!important;
     content: '';
-    height: 0px;
-    width: 100%;
-    background-color: white;
+    height: 3px;
+    width: 0%;
+    background-color: black;
     /* top: 50%;
     right: 0; */
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     /* transform: translateY(-50%); */
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 
 .nav-hover:hover::before,.navigation-selected::before {
-    transform-origin: left;
-    animation: nav-hover-in 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    transition: width 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    /* transform-origin: left; */
+    /* animation: nav-hover-in 0.4s cubic-bezier(0.04, 0.03, 0, 1.01); */
     position: absolute!important;
     content: '';
     height: 3px;
@@ -157,35 +212,41 @@ button#ham-btn {
     background-color: black;
     /* top: 50%;
     right: 0; */
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     /* transform: translateY(-50%); */
-    visibility: visible;
+    /* visibility: visible; */
 }
 .nav-hover:hover,.navigation-selected{
     transition: 0.1s all ease;
     color: #ea6651!important;
 }
 
-@keyframes nav-hover-out{
+/* @keyframes nav-hover-out{
     0%{
         transform: scaleX(1);
+        width: 100%;
+        height: 3px;
     }
     100%{
         transform: scaleX(0);
+        width: 0%;
+        height: 3px;
     }
-}
-
+} */
+/* 
 @keyframes nav-hover-in{
     0%{
+        width: 0%;
         height: 3px;
         transform: scaleX(0);
     }
     100%{
+        width: 100%;
         transform: scaleX(1);
         height: 3px;
     }
-}
+} */
 
 @keyframes sidebar-animation{
     0%{
@@ -206,9 +267,9 @@ button#ham-btn {
 
 .sidebar {
     overflow: hidden;
-    animation:sidebar-animation 1s cubic-bezier(0.04, 0.03, 0, 1.01);
+    animation:sidebar-animation 1s ease;
         right: 0;
-        position: absolute;
+        position: fixed;
         /* left: 50%; */
         top: 50%;
         transform: translate(46%,-50%) rotate(270deg);
@@ -240,14 +301,20 @@ button#ham-btn {
 
 .sidebar-share {
     overflow: hidden;
-    animation:sidebar-animation 1.5s cubic-bezier(0.04, 0.03, 0, 1.01);
+    animation:sidebar-animation 1.5s ease;
     /* animation-delay: 500ms; */
     right: 0;
-        position: absolute;
+        position: fixed;
         /* left: 50%; */
         top: 50%;
         transform: translate(46%,-50%) rotate(270deg);
-        width: 100vh;
+        width: 90vh;
+        display: none;
+}
+
+.sidebar-visible{
+    transition: all 1s ease;
+    display: block;
 }
 
 .sidebar-share ul {
