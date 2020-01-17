@@ -9,7 +9,12 @@
     html {
         font-size: 1.5rem;
       }
-      nav {
+      nav{
+         margin: auto;
+          height: fit-content;
+          width: 100%;
+      }
+      .nav-inner-wrapper {
         max-width: 930px;
     }
 
@@ -21,16 +26,19 @@
         
       }
 
-      .list-box{
-        height: 45px;
+      .nav-overlay{
+        z-index: 20;
+        height: 100vh;
+        /* color: aqua; */
+        background-color: aliceblue;
     }
     
       .toggle{
           display: block;
       }
-      nav {
+      .nav-inner-wrapper {
         max-width: 690px;
-        height: 100vh;
+        height: fit-content;
     }
     .toggle {
         /* margin: auto; */
@@ -74,7 +82,7 @@
     header ul {
         z-index: 100;
         width: 100%;
-        left: 0;
+        /* left: 0; */
         position: absolute;
         bottom: 0;
         margin: 0;
@@ -87,7 +95,10 @@
         display: none;
 
     }
-
+    .list-box{
+        height: 42  px;
+  
+    }
   
 
 
@@ -97,7 +108,7 @@
     html {
         font-size: 1.2rem;
       }
-      nav {
+      .nav-inner-wrapper {
         max-width: 510px;
     }
      
@@ -109,6 +120,12 @@
     
         .toggle{
             margin-right: 25px
+        }
+        .navbar-icon img {
+            margin-left: 25px;
+        }
+        .navbar-active {
+            margin-left: 25px;
         }
 
 }
