@@ -104,12 +104,12 @@ header ul li a:hover .default{
 }
 
 header ul li a .navlist-hover{
-    transform: translateY(-200%);
+    transform: translateY(-150%);
     opacity: 0;
 }
 
 header ul li a:hover .navlist-hover{
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     opacity: 1;
 }
 

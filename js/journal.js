@@ -24,7 +24,7 @@ function removeImageJessica(){
 }
 function moveImageJessica(e){
     var deltaX = parseInt(e.clientX/screen.width*60)-100;
-    var deltaY = parseInt(e.clientY/screen.height*20);
+    var deltaY = parseInt(e.clientY/screen.height*40);
     document.getElementById('myImage-jessica').style.left =deltaX+"%" ;
     document.getElementById('myImage-jessica').style.top =deltaY+"%" ;
 }
@@ -37,7 +37,7 @@ function removeImageNature(){
 }
 function moveImageNature(e){
     var deltaX = parseInt(e.clientX/screen.width*60)-100;
-    var deltaY = parseInt(e.clientY/screen.height*40);
+    var deltaY = parseInt(e.clientY/screen.height*60);
     document.getElementById('myImage-nature').style.left =deltaX+"%" ;
     document.getElementById('myImage-nature').style.top =deltaY+"%" ;
 }
@@ -50,7 +50,7 @@ function removeImageHappy(){
 }
 function moveImageHappy(e){
     var deltaX = parseInt(e.clientX/screen.width*60)-100;
-    var deltaY = parseInt(e.clientY/screen.height*60);
+    var deltaY = parseInt(e.clientY/screen.height*80);
     document.getElementById('myImage-happy').style.left =deltaX+"%" ;
     document.getElementById('myImage-happy').style.top =deltaY+"%" ;
 }
@@ -63,7 +63,7 @@ function removeImageTravel(){
 }
 function moveImageTravel(e){
     var deltaX = parseInt(e.clientX/screen.width*60)-100;
-    var deltaY = parseInt(e.clientY/screen.height*80);
+    var deltaY = parseInt(e.clientY/screen.height*100);
     document.getElementById('myImage-travel').style.left =deltaX+"%" ;
     document.getElementById('myImage-travel').style.top =deltaY+"%" ;
 }
@@ -76,7 +76,7 @@ function removeImageArchitecture(){
 }
 function moveImageArchitecture(e){
     var deltaX = parseInt(e.clientX/screen.width*60)-100;
-    var deltaY = parseInt(e.clientY/screen.height*100);
+    var deltaY = parseInt(e.clientY/screen.height*120);
     document.getElementById('myImage-arc').style.left =deltaX+"%" ;
     document.getElementById('myImage-arc').style.top =deltaY+"%" ;
 }

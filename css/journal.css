@@ -1,17 +1,44 @@
 header ul li a,header ul li a:hover{
     color: white;
 }
-.journal{
+.line{
+   background-color: black;
+}
+
+header ul li a .default{
+    transform: translateY(0%);
+}
+
+header ul li a:hover .default{
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+header ul li a .navlist-hover{
+    transform: translateY(-150%);
+    opacity: 0;
+}
+
+header ul li a:hover .navlist-hover{
+    transform: translateY(-100%);
+    opacity: 1;
+}
+.nav-hover:hover::before, .navigation-selected::before {
+    background-color: rgba(255,255,255,0.5);
+}
+
+body{
     background-image: url('../assets/images/Journal/blog-bg.jpg');
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .hero{
     width: 100%;
-    padding-top: calc(60px + 100px + 25px);
+    margin-top: calc(60px + 100px + 25px);
     position: relative;
     transition: all 0.7s ease;
     height: auto;
@@ -117,6 +144,10 @@ a{
     margin: 80px 0 40px 0;
     overflow: hidden;
     font-size: 15px;
+    text-align: center;
+}
+.pg-pagination a{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
 }
 .pagination{
     list-style: none;
@@ -127,26 +158,57 @@ a{
     text-align: center;
     transition: all 0.45s cubic-bezier(0.195, 0.290, 0.045, 0.995) 0.4s;
 }
-.pagination li {
+/* .pagination li {
     padding: 0;
     display: inline-block;
     margin: 0 3px;
-}
-.pagination li.inactive{
+} */
+.inactive{
     pointer-events: none;
     opacity: 0.15;
 }
-.pagination li.previous{
+/* .pagination li.previous{
     text-align: left;
     float: left;
     width: 90px;
+    margin-right: 15px;
+} */
+/* .pagination li.previous a{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
 }
-.pagination li:first-child{
+.pagination li.page{
+    display: inline-block;
+    float: none;
+    position: none;
+    text-align: center;
+} */
+.page span{
+    display: inline-block;
+    transition: all 0.2s ease;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 0 5px;
+    max-width: 100%;
+}
+.page a{
+    transition: all 0.2s ease;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.48);
+    padding: 0px 5px;
+    text-decoration: none;
+}
+/* .pagination li:first-child{
     margin-left: 0;
 }
 ul li:first-child {
     margin-top: 0;
-}
+} */
 .btn-style{
     color: #fff;
     border-color: (255,255,255,.28);
@@ -154,7 +216,6 @@ ul li:first-child {
     line-height: 20px;
     height: 20px;
     padding: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.11)!important;
     border-radius: 0%;
 }
 .text{
@@ -163,4 +224,89 @@ ul li:first-child {
     position: relative;
     z-index: 1;
     vertical-align: top;
+    font-size: 12px;
+    font-weight: 400;
 }
+.next{
+    /* margin-left: px; */
+    float: right;
+    text-align: right;
+    width: 90px;
+    right: 20%;
+}
+.next a{
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+    margin-left: 20px;
+}
+
+#footer{
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.35s ease 0.6s, transform 0.35s ease 0.6s;
+    z-index: 3;
+    position: relative;
+    width: 100%;
+}
+.footer-wrapper{
+    padding: 50px 0px;
+    margin: 0 80px;
+    max-width: calc(100% - 160px);
+}
+.col-section{
+    width: calc(50% - 20px);
+    margin-right: 40px;
+    float: left;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+.h8{
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    color: white;
+    margin: -1.44px 0 0;
+}
+.social-media{
+    /* margin: 30px 0 0 0; */
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+.social-media li{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+.social-media a{
+    color: white;
+    height: 16px;
+    transition: all 0.2s ease;
+    /* display: block; */
+    text-align: center;
+    font-size: 12px;
+    line-height: 19px;
+    padding-right: 30px;
+    width: 70px;
+    padding: 5px 30px 0 0;
+    opacity: .48;
+    display: inline-flex;
+}
+.right-col{
+    text-align: right;
+}
+.copyright{
+    font-size: 12px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.48);
+    margin-top: 30px;
+}
+.copyright a{
+    color: rgba(255, 255, 255, 0.48);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+}
+.ht{
+    height: 30px;
+}
+
