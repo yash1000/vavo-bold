@@ -35,12 +35,20 @@ nav{
     height: 70px;
     width: 100px;
 }
+
+.list-box{
+    height: 25px;
+    width: auto;
+    overflow: hidden;
+}
+
 header ul{
     margin: 0;
     padding: 0;
     float: right;
     display: inline-block;
     /* margin-left: auto; */
+    margin-top: 10px;
 }
 .navbar-active{
     display: block;
@@ -75,25 +83,25 @@ header ul li a:hover{
 header ul li a span{
     display: block;
     text-decoration: none;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 
 header ul li a .default{
-    transform: translateY(100%);
+    transform: translateY(0%);
 }
 
 header ul li a:hover .default{
-    transform: translateY(200%);
+    transform: translateY(100%);
     opacity: 0;
 }
 
 header ul li a .navlist-hover{
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     opacity: 0;
 }
 
 header ul li a:hover .navlist-hover{
-    transform: translateY(0%);
+    transform: translateY(-100%);
     opacity: 1;
 }
 
