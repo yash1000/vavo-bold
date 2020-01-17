@@ -30,6 +30,7 @@ header ul{
     padding: 0;
     float: right;
     display: inline-block;
+    margin-top: 10px;
 }
 .navbar-active{
     display: block;
@@ -44,8 +45,8 @@ header ul li{
 
 header ul li a{
     color: white;
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: 400 !important;
+    font-size: 13px !important;
     text-decoration: none;
 }
 
@@ -61,23 +62,24 @@ header ul li a span{
 }
 
 header ul li a .default{
-    transform: translateY(100%);
+    transform: translateY(0%);
 }
 
 header ul li a:hover .default{
-    transform: translateY(200%);
+    transform: translateY(100%);
     opacity: 0;
 }
 
 header ul li a .navlist-hover{
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     opacity: 0;
 }
 
 header ul li a:hover .navlist-hover{
-    transform: translateY(0%);
+    transform: translateY(-100%);
     opacity: 1;
 }
+
 
 .ham-wrapper {
     position: relative;
@@ -143,57 +145,30 @@ button#ham-btn {
 }
 
 .nav-hover::before{
-    animation: nav-hover-out 0.2s ease-in-out;
-    animation-duration: 200ms;
-    transform-origin: left;
+    transition: width 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
     position: absolute!important;
     content: '';
-    height: 0px;
-    width: 100%;
-    background-color: white;
-    right: 0; 
-    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: rgba(255,255,255,.5);
+    bottom: 0px;
     left: 0;
-    visibility: hidden;
 }
 
 
 .nav-hover:hover::before,.navigation-selected::before {
-    transform-origin: left;
-    animation: nav-hover-in 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    transition: width 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
     position: absolute!important;
     content: '';
-    height: 3px;
+    height: 2px;
     width: 100%;
-    background-color: white;
-    bottom: 0;
+    background-color: rgba(255,255,255,.5);
+    bottom: 0px;
     left: 0;
-    visibility: visible;
 }
-
 .nav-hover:hover,.navigation-selected{
     transition: 0.1s all ease;
     color: #ea6651!important;
-}
-
-@keyframes nav-hover-out{
-    0%{
-        transform: scaleX(1);
-    }
-    100%{
-        transform: scaleX(0);
-    }
-}
-
-@keyframes nav-hover-in{
-    0%{
-        height: 3px;
-        transform: scaleX(0);
-    }
-    100%{
-        transform: scaleX(1);
-        height: 3px;
-    }
 }
 
 @keyframes sidebar-animation{
@@ -284,10 +259,10 @@ button#ham-btn {
     margin-top: 100px;
 }
 
-.middle-img{
+.middle-img img{
     margin-top: 100px;
     height: 100%;
-    width: 100%;
+    width: 100% !important;
 }
 
 .middle-content-title-left{
@@ -430,4 +405,15 @@ button#ham-btn {
 
 .pagination-list .next a{
     text-decoration: none;
+}
+
+.sidebar-share a, .sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 400 !important;
+}
+
+.sidebar-share, .sidebar{
+    z-index: 100;
 }
