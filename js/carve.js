@@ -5,3 +5,8 @@ $(".grid").masonry({
   horizontalOrder: true
 });
 
+$(document).ready(function(){
+  AOS.init({
+    once:true
+  });
+})

@@ -9,6 +9,9 @@ section{
 }
 .common-text-wrapper img{
     /* margin: auto; */
+    /* top: 0;
+    left: 0;
+    transform: translate(0px, 230px); */
     /* position: absolute; */
     height: 250px;
     width: 250px;

@@ -6,12 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carve</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/responsive/main-responsive.css">
     <link rel="stylesheet" href="./css/carve.css">
     <link rel="stylesheet" href="./css/responsive/carve-responsive.css">
-    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <header>
+        <div class="">
+          <nav>
+          <div class="nav-inner-wrapper">
+            <div class="navbar-icon">
+              <a href="#">
+                <img src="./assets/images/vavo-logo-light.svg" alt="" />
+              </a>
+            </div>
+            <div class="toggle">
+              <button id="ham-btn" class="navbar-toggler" type="button">
+                <div class="ham-wrapper icon-open">
+                  <div class="line top-ham"></div>
+                  <!-- <div class="line mid-ham"></div> -->
+                  <div class="line bot-ham"></div>
+                </div>
+              </button>
+            </div>
+    
+            <ul>
+              <li class="animated fadeInUp fast nav-hover navigation-selected">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Work</span>
+                    <span class="navlist-hover">Work</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">About</span>
+                    <span class="navlist-hover">About</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Journal</span>
+                    <span class="navlist-hover">Journal</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Contact</span>
+                    <span class="navlist-hover">Contact</span>
+                  </a>
+                </div>
+              </li>
+          </ul>
+          </div>
+    
+          </nav>
+        </div>
+      </header>
+    
     <section class="hero-gif">
         <img src="./assets/images/Carve/crve-logo.gif" alt="">
     </section>
@@ -24,8 +84,8 @@
             </div>
             <div class="grid">
                 <div class="grid-sizer"></div>
-                <div  class="grid-item" ><img id="grid-img-first" src="assets/images/Carve/portfolio-single-8.jpg" alt=""></div>
-                <div class="grid-item" ><img id="grid-img-second" src="assets/images/Carve/portfolio-single-9.jpg" alt=""></div>
+                <div  class="grid-item" data-aos="fade-up" ><img id="grid-img-first" src="assets/images/Carve/portfolio-single-8.jpg" alt=""></div>
+                <div class="grid-item" data-aos="fade-up"><img id="grid-img-second" src="assets/images/Carve/portfolio-single-9.jpg" alt=""></div>
             </div>
         </div>
     </section>
@@ -68,12 +128,12 @@
         </div>
         <div class="grid">
             <div class="grid-sizer"></div>
-            <div  id="grid-item-1"  class="grid-item" ><img src="assets/images/Carve/portfolio-single-11.jpg" alt=""></div>
-            <div  id="grid-item-2"  class="grid-item" ><img src="assets/images/Carve/portfolio-single-12.jpg" alt=""></div>
-            <div  id="grid-item-3"  class="grid-item" ><img src="assets/images/Carve/portfolio-single-16.jpg" alt=""></div>
-            <div  id="grid-item-4"  class="grid-item" ><img src="assets/images/Carve/portfolio-single-13.jpg" alt=""></div>
-            <div  id="grid-item-5"  class="grid-item" ><img src="assets/images/Carve/portfolio-single-15.jpg" alt=""></div>
-            <div  id="grid-item-6"  class="grid-item" ><img src="assets/images/Carve/portfolio-single-14.jpg" alt=""></div>
+            <div  id="grid-item-1"  class="grid-item" data-aos="fade-up" ><img src="assets/images/Carve/portfolio-single-11.jpg" alt=""></div>
+            <div  id="grid-item-2"  class="grid-item" data-aos="fade-up" ><img src="assets/images/Carve/portfolio-single-12.jpg" alt=""></div>
+            <div  id="grid-item-3"  class="grid-item" data-aos="fade-up" ><img src="assets/images/Carve/portfolio-single-16.jpg" alt=""></div>
+            <div  id="grid-item-4"  class="grid-item" data-aos="fade-up" ><img src="assets/images/Carve/portfolio-single-13.jpg" alt=""></div>
+            <div  id="grid-item-5"  class="grid-item" data-aos="fade-up" ><img src="assets/images/Carve/portfolio-single-15.jpg" alt=""></div>
+            <div  id="grid-item-6"  class="grid-item" data-aos="fade-up" ><img src="assets/images/Carve/portfolio-single-14.jpg" alt=""></div>
         </div>
        </div>
     </section>
@@ -84,6 +144,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="./assets/masonryjs/pckg.masonry.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/carve.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
