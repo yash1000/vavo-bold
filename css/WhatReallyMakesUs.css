@@ -6,32 +6,74 @@ body {
 .content-wrapper {
   width: 100%;
   padding-top: 100px;
-  /* padding: 0 !important; */
+}
+
+h1 {
+  color: #ffffff;
 }
 
 .header-wrapper h1 {
   font-size: 82px;
   font-weight: 700;
-  color: #ffffff;
+  line-height: 96px;
 }
 
-.head-content {
-  width: 69%;
+.intro-wrapper {
+  width: 68%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.head-content h1 {
+.intro-wrapper h1 {
+  font-size: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.question-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-wrapper h1 {
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 40px;
-  color: #ffffff;
 }
 
-.paragraph-wrapper {
-  width: 40%;
+.image-wrapper img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.question-wrapper h1 {
+  padding-top: 40px;
+}
+
+.question-wrapper h2 {
+  border-left: 2px rgba(255, 255, 255, 0.69) solid;
+  padding-left: 50px;
+}
+
+.question-wrapper p {
+  padding-top: 40px;
+}
+
+.nextPage-footer-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px rgba(255, 255, 255, 0.69) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.69) solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .form-wrapper {
@@ -39,6 +81,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .form-text-area {
   width: 100%;
   background-color: #000000;

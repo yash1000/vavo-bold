@@ -3,35 +3,90 @@ body {
   color: rgba(255, 255, 255, 0.69);
 }
 
+h1,
+h2 {
+  color: #ffffff;
+}
+
+p {
+  font-size: 12px;
+}
+
 .content-wrapper {
   width: 100%;
   padding-top: 100px;
-  /* padding: 0 !important; */
+}
+
+.header-wrapper {
+  width: 80%;
+  padding-left: 30px;
 }
 
 .header-wrapper h1 {
   font-size: 82px;
   font-weight: 700;
-  color: #ffffff;
+  line-height: 96px;
 }
 
-.head-content {
-  width: 69%;
-  margin-right: auto;
-  margin-left: auto;
+.image-wrapper img {
+  width: 100%;
 }
 
-.head-content h1 {
+.intro-wrapper {
+  width: 80%;
+}
+
+.intro-wrapper h1 {
   font-weight: 400;
   font-size: 30px;
-  line-height: 40px;
-  color: #ffffff;
+  line-height: 41px;
 }
 
-.paragraph-wrapper {
-  width: 40%;
+.intro-wrapper p {
+  padding-top: 40px;
+}
+
+.carousel-cell {
+  margin-right: 10%;
+  display: block;
+  background-size: cover;
+  width: 66%;
+  height: 50rem;
+  margin-right: 10%;
+  border-radius: 5px;
+  margin-left: 10rem;
+  counter-increment: carousel-cell;
+}
+
+.article-wrapper {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.article-wrapper p {
+  padding-top: 40px;
+}
+
+.article-wrapper h2 {
+  border-left: 2px rgba(255, 255, 255, 0.69) solid;
+  padding-left: 50px;
+  margin-top: 40px;
+}
+
+.nextPage-footer-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px rgba(255, 255, 255, 0.69) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.69) solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .form-wrapper {
@@ -39,6 +94,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .form-text-area {
   width: 100%;
   background-color: #000000;
