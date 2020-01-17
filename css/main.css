@@ -19,13 +19,21 @@ nav{
     position: fixed;
     top: 0;
     height: fit-content ;
-    max-width: 1110px;
+    
     /* margin: 0px auto; */
     /* margin-left: auto;
     margin-right: auto; */
     /* margin-top: 20px; */
     width: 100%;
     background-color: transparent;
+}
+
+.nav-overlay{
+    
+}
+.nav-inner-wrapper{
+    margin: auto;
+    max-width: 1110px;
 }
 .navbar-icon{
     display: inline-block;
@@ -267,7 +275,7 @@ button#ham-btn {
 
 .sidebar {
     overflow: hidden;
-    animation:sidebar-animation 1s ease;
+    animation:sidebar-animation 0.5s ease;
         right: 0;
         position: fixed;
         /* left: 50%; */
@@ -301,7 +309,7 @@ button#ham-btn {
 
 .sidebar-share {
     overflow: hidden;
-    animation:sidebar-animation 1.5s ease;
+    animation:sidebar-animation 0.5s ease;
     /* animation-delay: 500ms; */
     right: 0;
         position: fixed;
@@ -313,7 +321,7 @@ button#ham-btn {
 }
 
 .sidebar-visible{
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     display: block;
 }
 
@@ -331,8 +339,8 @@ button#ham-btn {
     /* height: 15px; */
 }
 
-.sidebar-share a {
-    text-decoration: none;
+#sidebar-share-link {
+    cursor: pointer;
     color: black;
     font-size: 15px;
 }

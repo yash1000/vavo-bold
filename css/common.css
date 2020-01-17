@@ -1,0 +1,23 @@
+section{
+    height: 500px;
+}
+.common-text-wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.common-text-wrapper img{
+    /* margin: auto; */
+    /* position: absolute; */
+    height: 250px;
+    width: 250px;
+}
+.common-text{
+    color: black;
+    text-decoration: none;
+    font-size: 3em;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
