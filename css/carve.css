@@ -14,31 +14,31 @@ body{
 }
 .hero-gif img{
     margin: auto;
-    height: 17rem;
-    width: 17rem;
+    height: 12rem;
+    width: 12rem;
 }
 
 .vavo-small-heading{
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     /* line-height: 29px; */
     margin-bottom: 8rem;
 }
 .vavo-heading{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 .vavo-content-heading{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 .vavo-content-para{
     margin-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 .vavo-content-para-light{
     margin-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
     opacity: 0.5;
 }
 section{
