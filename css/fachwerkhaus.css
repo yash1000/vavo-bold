@@ -74,6 +74,19 @@ body
     line-height: 96px;
     font-weight: 700;
 }
+.hero-animation{
+    transform: translateY(40%) rotate(-2deg);
+    transform-origin: top right;
+    opacity: 0;
+  
+}
+
+.hero-animation1{
+    transform: translateY(100%) rotate(-3deg);
+    transform-origin: top right;
+    opacity: 0;
+   
+}
 
 
 .hero-page span{

@@ -29,8 +29,10 @@
         <section class="hero-page">
             <div class="container">
                 <div class="hero-wrapper">
-                    <div data-aos="fade-up" data-aos-duration="1500">
+                    <div class="hero-animation">
                         <h1 class="primary-color">Fachwerkhaus</h1>
+                    </div>
+                    <div class="hero-animation1">
                         <div class="post-meta">
                             <div class="post">
                                 <span class="secondary-color post-author">Written by <a href="#"
@@ -40,6 +42,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="hero-wrapper">
                     <div class="spacer-big"></div>
                     <div class="row">
                         <div class="col-md-4">
@@ -112,12 +116,14 @@
                     <div class="spacer-big"></div>
 
                     <div class="sublevel">
+                        <div data-aos="fadeIn" data-aos-duration="600"  data-aos-offset="200" data-aos-once="true" data-aos-easing="ease">
 
-                        <div class="row">
-                            <div class="col-md-6 mb-3"><img class="main-image1"
-                                    src="./assets/images/Fachwerkhaus/blog-single-2.jpg"></div>
-                            <div class="col-md-6 mb-3"><img class="main-image1"
-                                    src="./assets/images/Fachwerkhaus/blog-single-3.jpg"></div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3"><img class="main-image1"
+                                        src="./assets/images/Fachwerkhaus/blog-single-2.jpg"></div>
+                                <div class="col-md-6 mb-3"><img class="main-image1"
+                                        src="./assets/images/Fachwerkhaus/blog-single-3.jpg"></div>
+                            </div>
                         </div>
                     </div>
 
@@ -150,7 +156,7 @@
                                 </a>
                             </li>
                             <li class="next ml-auto">
-                                <a href="#">
+                                <a href="file:///F:/vavo-bold/start-your-day.html">
                                     <span class="text ">Next Post</span>
                                     <span class="post-title">Start your day with a new routine</span>
                                 </a>
@@ -228,7 +234,25 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script>AOS.init();</script>
+    <script>AOS.init();
+      $(window).on('load', function(){
+    $(".hero-animation").css({
+        "transform":"rotate(0)",
+        "transformOrigin":"top right",
+        "transition":"all 1s ",
+        "opacity":"1"
+    })
+
+    $(".hero-animation1").css({
+        "transform":"rotate(0)",
+        "transformOrigin":"top right",
+        "transition":"all 1s ",
+        "opacity":"1"
+    })
+
+    });
+    
+    </script>
 
 
 </body>

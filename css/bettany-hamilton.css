@@ -73,6 +73,19 @@ body
     font-size: 82px;
     line-height: 96px;
     font-weight: 700;
+
+}
+
+.hero-animation{
+    transform: translateY(15%) rotate(-2deg);
+    transform-origin: top right;
+    opacity: 0;
+}
+
+.hero-animation1{
+    transform: translateY(100%) rotate(-3deg);
+    transform-origin: top right;
+    opacity: 0;
 }
 
 .hero-banner span{
