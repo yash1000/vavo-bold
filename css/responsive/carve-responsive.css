@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 767px) {
     html {
-        font-size: 1.2rem;
+        font-size: 1.35rem;
       }
 
       .grid-sizer,
@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 575px){ 
     html {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
       }
     #grid-img-first{
         float: none;
@@ -118,12 +118,14 @@
        margin: 50px auto;
         float: none;
     }
-    
+    .vavo-heading {
+        font-size: 1.2rem;
+    }
 
 
 }
 
-@media (max-width: 350px){
+@media (max-width: 319px){
     html {
         font-size: 0.5rem;
       }

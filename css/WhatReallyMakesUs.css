@@ -1,0 +1,156 @@
+body {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+.content-wrapper {
+  width: 100%;
+  padding-top: 100px;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 15px;
+}
+
+header ul li a {
+  color: #ffffff;
+}
+
+.nav-inner-wrapper {
+  max-width: 1440px;
+  padding-top: 30px;
+}
+
+.header-wrapper {
+  width: 75%;
+}
+
+.header-wrapper h1 {
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.header-wrapper p {
+  margin-top: 50px;
+}
+
+.intro-wrapper {
+  width: 68%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-wrapper h1 {
+  font-size: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.question-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-wrapper h1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.image-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-wrapper h1 {
+  padding-top: 40px;
+}
+
+.question-wrapper h2 {
+  border-left: 2px rgba(255, 255, 255, 0.69) solid;
+  padding-left: 50px;
+}
+
+.question-wrapper p {
+  padding-top: 40px;
+}
+
+.nextPage-footer-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px rgba(255, 255, 255, 0.69) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.69) solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form-wrapper {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-text-area {
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+}
+
+.comment-section h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+label,
+input,
+button,
+textarea {
+  font-size: 14px;
+}
+
+.deatails-section {
+  padding-top: 50px;
+}
+
+.deatails-section div {
+  padding-right: 5px;
+}
+
+.deatails-section input {
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#post-button {
+  display: block;
+  margin-top: 30px;
+  height: 40px;
+  width: 20%;
+  border: none;
+  background-color: #ffffff;
+}

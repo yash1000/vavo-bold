@@ -103,7 +103,8 @@ body{
     position: relative;
     z-index: 4;
     opacity: 1;
-    height: 103px;
+    margin-top: 50px;
+    /* height: 103px; */
 }
 .li-item a{
     display: block;
@@ -115,10 +116,10 @@ a{
     cursor: pointer;
     transition: all 0.2s ease;
     font-weight: 500s;
-    height: 103px;
+    /* height: 103px; */
 }
 .wrapper-med{
-    width: 1080px;
+    width: auto;
     /* height: 103px; */
 }
 .entry-title{
@@ -153,10 +154,10 @@ a{
 	-webkit-animation: scale-up-ver-top 0.4s ease-in both;
 	        animation: scale-up-ver-top 0.4s ease-in both;
 }
-.post-title{
+/* .post-title{
     margin: 10px 0 20px 0;
-}
-.post-title span{
+} */
+.post-date,.post-cat{
     display: block;
     margin-bottom: 10px;
 }
@@ -179,17 +180,19 @@ a{
     
 }
 .page-pagination{
-    margin: 80px 0 40px 0;
-    overflow: hidden;
+    margin: 80px 0px 40px 0px;  
+    width: 100%;
+    padding: 20px;
+    /* overflow: hidden; */
 }
 .pg-pagination{
     margin: 80px 0 40px 0;
     overflow: hidden;
     font-size: 15px;
 }
-.pg-pagination a{
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.48); */
-}
+/* .pg-pagination a{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+} */
 .pagination{
     list-style: none;
     margin: 0;

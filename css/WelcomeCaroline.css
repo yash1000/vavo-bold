@@ -1,0 +1,141 @@
+body {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+p {
+  font-size: 15px;
+}
+
+.content-wrapper {
+  width: 100%;
+  padding-top: 100px;
+  /* padding: 0 !important; */
+}
+
+.header-wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-wrapper h1 {
+  font-size: 82px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.head-content {
+  width: 69%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.head-content h1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.carousel {
+  height: fit-content;
+  border: none;
+  outline: none;
+  cursor: url("../assets/images/About/bigdragicon.png"), auto !important;
+}
+
+.carousel-cell {
+  margin-right: 10%;
+  display: block;
+  background-size: cover;
+  width: 66%;
+  margin-right: 10%;
+  border-radius: 5px;
+  margin-left: 10rem;
+  counter-increment: carousel-cell;
+  /* cursor: url("../assets/images/About/bigdragicon.png") !important; */
+}
+
+.paragraph-wrapper {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph-wrapper p {
+  padding-top: 40px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.nextPage-footer-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px rgba(255, 255, 255, 0.69) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.69) solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+label {
+  font-size: 13px;
+}
+
+.form-wrapper {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-text-area {
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+}
+
+.comment-section h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+textarea,
+input,
+button {
+  font-size: 14px;
+}
+
+.deatails-section {
+  padding-top: 50px;
+}
+
+.deatails-section div {
+  padding-right: 5px;
+}
+
+.deatails-section input {
+  width: 100%;
+  background-color: #000000;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#post-button {
+  display: block;
+  margin-top: 30px;
+  height: 40px;
+  width: 20%;
+  border: none;
+  background-color: #ffffff;
+}
