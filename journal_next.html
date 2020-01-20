@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/animation/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/journal.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive/journal-responsive.css">
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css" />
+    <title>Vavo Bold</title>
+</head>
+<body> 
+    <!-- hero-section start -->
+    <header>
+        <div class="">
+          <nav>
+          <div class="nav-inner-wrapper">
+            <div class="navbar-icon">
+              <a href="#">
+                <img src="./assets/images/vavo-logo-light.svg" alt="" />
+              </a>
+            </div>
+            <div class="toggle">
+              <button id="ham-btn" class="navbar-toggler" type="button">
+                <div class="ham-wrapper icon-open">
+                  <div class="line top-ham"></div>
+                  <!-- <div class="line mid-ham"></div> -->
+                  <div class="line bot-ham"></div>
+                </div>
+              </button>
+            </div>
+    
+            <ul>
+              <li class="animated fadeInUp fast nav-hover navigation-selected">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Work</span>
+                    <span class="navlist-hover">Work</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">About</span>
+                    <span class="navlist-hover">About</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Journal</span>
+                    <span class="navlist-hover">Journal</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Contact</span>
+                    <span class="navlist-hover">Contact</span>
+                  </a>
+                </div>
+              </li>
+          </ul>
+          </div>
+    
+          </nav>
+        </div>
+      </header>
+    <section class="journal">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-margin"></div>
+                <div class="hero-inner dmsans" data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="100"
+                    data-aos-offset="0">
+                    <h2>
+                        <strong>Thoughts & Journal</strong>
+                    </h2>
+                    <h6 class="title-alt">Stories about Design, Travelling and much more stuff.</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="journal-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9"> 
+                        <div id="mouseDiv" onmouseover="addImageInside()" onmouseout="removeImageInside()" 
+                        onmousemove="moveImageInside(event)" data-aos="fade-up">
+                            <div class="list-wrapper wrapper-med">
+                                <div class="li-item dmsans text-left">
+                                    <a href="#">
+                                        <h4 class="entry-title">Inside - Words from Bettany Hamilton</h4>
+                                        <div class="post-title">
+                                            <span class="post-date">June 3, 2019</span>
+                                            <span class="post-cat">people</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper-med">
+                            <div id="mouseDiv" onmouseover="addImageFachwerkhaus()" onmouseout="removeImageFachwerkhaus()" 
+                            onmousemove="moveImageFachwerkhaus(event)" data-aos="fade-up">
+                                <div class="li-item dmsans text-left">
+                                    <a href="#">
+                                        <h4 class="entry-title">Fachwerkhaus</h4>
+                                        <div class="post-title">
+                                            <span class="post-date">
+                                                May 22, 2019</span>
+                                            <span class="post-cat">Architecture</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper-med">
+                            <div class="li-item dmsans text-left">
+                                <div id="mouseDiv" onmouseover="addImageRoutine()" onmouseout="removeImageRoutine()" 
+                                onmousemove="moveImageRoutine(event)" data-aos="fade-up">
+                                    <a href="#">
+                                        <h4 class="entry-title">Start your day with a new routine</h4>
+                                        <div class="post-title">
+                                            <span class="post-date">May 18, 2019</span>
+                                            <span class="post-cat">Food</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="overlay-img">
+                        <img class="caroline"id='myImage-inside' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" 
+                        src='../vavo-bold/assets/images/Journal/welcome_carolina/blog-single-11.jpg'>
+                    </div>
+                    <div class="overlay-img">
+                        <img class="caroline" id='myImage-Fachwerkhaus' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                        src='../vavo-bold/assets/images/Journal/Jessica_Born/jessica-born.jpg'>
+                    </div>
+                    <div class="img-overlay">
+                        <img class="caroline" id='myImage-routine' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                        src='../vavo-bold/assets/images/Journal/surfing_nature/blog-single-1.jpg'>
+                    </div>
+                </div>
+            </div>
+            <div class="page-pagination dmsans">
+                <ul class="pagination">
+                    <li class="pg-pagination previous">
+                        <a href="file:///E:/vavo-bold/journal.html#" class="btn-style" id="hover-next">
+                            <span class="text default" style="color: white;">Previous Page</span>
+                            <span class="text navlist-hover" style="color: white;">Previous Page</span>
+                        </a>
+                    </li>
+                    <div id="center">
+                        <li class="pg-pagination page">
+                            <a href="file:///E:/vavo-bold/journal.html#">1</a>
+                            
+                        </li>
+                        <li class="pg-pagination page">
+                            <span class="current">2</span>
+                        </li>
+                    </div>
+                    <li class="pg-pagination next inactive">
+                        <a href="#" class="btn-style">
+                            <span class="text"> Next Page</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        <footer id="footer" class="dmsans">
+            <div class="footer-wrapper">
+                <div class="col-section">
+                    <h6 class="h8">Crafting solutions for creative bands</h6>
+                    <ul class="social-media">
+                        <li class="facebook">
+                                <a href="#">Facebook</a>
+                        </li>
+                        <li class="twitter">
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li class="instagram">
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li class="dribble">
+                            <a href="#">Dribble</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-selection right-col">
+                    <div class="right-text">
+                        <p class="copyright">
+                            Site made for wordpress - 
+                            <a href="#"> Buy This Theme</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="ht">
+        </div>
+    </section>
+    <!-- hero-section end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/journal.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

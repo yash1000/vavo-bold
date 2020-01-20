@@ -7,48 +7,74 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/animation/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/responsive/main-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/journal.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive/journal-responsive.css">
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css" />
     <title>Vavo Bold</title>
 </head>
 <body> 
     <!-- hero-section start -->
-    <section class="journal">
-        <header>
-            <div class="container">
-                <nav>
-                    <div class="navbar-icon">
-                        <a href="#">
-                            <img src="./assets/images/vavo-logo-light.svg" alt="" />
-                        </a>
-                    </div>
-                    <div class="toggle">
-                        <button id="ham-btn" class="navbar-toggler" type="button">
-                            <div class="ham-wrapper icon-open">
-                            <div class="line top-ham"></div>
-                            <div class="line bot-ham"></div>
-                            </div>
-                        </button>
-                    </div>
-        
-                    <ul>
-                        <li class="animated fadeInUp fast">
-                            <a class="dmsans" href="#">Work</a>
-                        </li>
-                        <li class="animated fadeInUp fast">
-                            <a class="dmsans" href="#">About</a>
-                        </li>
-                        <li class="animated fadeInUp fast">
-                            <a class="dmsans" href="#">Journal</a>
-                        </li>
-                        <li class="animated fadeInUp fast">
-                            <a class="dmsans" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+    <header>
+        <div class="">
+          <nav>
+          <div class="nav-inner-wrapper">
+            <div class="navbar-icon">
+              <a href="#">
+                <img src="./assets/images/vavo-logo-light.svg" alt="" />
+              </a>
             </div>
-        </header>
+            <div class="toggle">
+              <button id="ham-btn" class="navbar-toggler" type="button">
+                <div class="ham-wrapper icon-open">
+                  <div class="line top-ham"></div>
+                  <!-- <div class="line mid-ham"></div> -->
+                  <div class="line bot-ham"></div>
+                </div>
+              </button>
+            </div>
+    
+            <ul>
+              <li class="animated fadeInUp fast nav-hover navigation-selected">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Work</span>
+                    <span class="navlist-hover">Work</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">About</span>
+                    <span class="navlist-hover">About</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Journal</span>
+                    <span class="navlist-hover">Journal</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Contact</span>
+                    <span class="navlist-hover">Contact</span>
+                  </a>
+                </div>
+              </li>
+          </ul>
+          </div>
+    
+          </nav>
+        </div>
+      </header>
+    <section class="journal">
+        
         <div class="container">
             <div class="hero">
                 <div class="hero-margin"></div>
@@ -166,18 +192,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pg-pagination dmsans">
-                            <ul class="pagination">
-                               <li class="previous inactive">
-                                   <a href="#" class="btn-style">
-                                       <span class="text">
-                                           <!-- <span>previous Page</span> -->
-                                           <span>previous Page</span>
-                                       </span>
-                                   </a>
-                               </li> 
-                            </ul>
-                        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="overlay-img">
@@ -210,8 +224,62 @@
                         </div>
                     </div>
                 </div>
+                <div class="page-pagination dmsans">
+                    <ul class="pagination">
+                        <li class="pg-pagination previous inactive">
+                            <a href="#" class="btn-style">
+                                <span class="text">Previos page</span>
+                            </a>
+                        </li>
+                        <div id="center">
+                            <li class="pg-pagination page">
+                                <span class="current">1</span>
+                            </li>
+                            <li class="pg-pagination page">
+                                <a href="file:///E:/vavo-bold/journal_next.html">2</a>
+                            </li>
+                        </div>
+                        <li class="pg-pagination next">
+                            <a href="file:///E:/vavo-bold/journal_next.html" class="btn-style" id="hover-next">
+                                <span class="default">Next Page</span>
+                                <span class="navlist-hover">Next Page</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>      
+        </div> 
+        <footer id="footer" class="dmsans">
+            <div class="footer-wrapper">
+                <div class="col-section">
+                    <h6 class="h8">Crafting solutions for creative bands</h6>
+                    <ul class="social-media">
+                        <li class="facebook">
+                                <a href="#">Facebook</a>
+                        </li>
+                        <li class="twitter">
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li class="instagram">
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li class="dribble">
+                            <a href="#">Dribble</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-selection right-col">
+                    <div class="right-text">
+                        <p class="copyright">
+                            Site made for wordpress - 
+                            <a href="#"> Buy This Theme</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="ht">
+        </div>
     </section>
     <!-- hero-section end -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
