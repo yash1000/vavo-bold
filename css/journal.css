@@ -338,6 +338,7 @@ ul li:first-child {
     display: inline-block;
     margin: 0;
     position: relative;
+    color: rgba(255, 255, 255, 0.48);
 }
 .social-media a{
     color: white;
@@ -374,6 +375,9 @@ ul li:first-child {
     line-height: 19px;
     color: rgba(255, 255, 255, 0.48);
     margin-top: 30px;
+}
+.copyright h6{
+    color: rgba(255, 255, 255, 0.48);
 }
 .copyright a{
     color: rgba(255, 255, 255, 0.48);
@@ -417,4 +421,10 @@ ul li:first-child {
     font-size: 12px;
     text-decoration: none;
     color: white;
+}
+.footer-content h6{
+    color: white;
+}
+.footer-content li a{
+    color: rgba(255, 255, 255, 0.48);
 }
