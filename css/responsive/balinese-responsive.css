@@ -79,6 +79,18 @@
     .pagination-list .prev a .post-title, .pagination-list .next a .post-title {
         font-size: 13px;
     }
+
+    label {
+        margin-top: 5%;
+    }
+
+    .text-area {
+        width: 95%;
+    }
+
+    .copyright h6 {
+        float: left;
+    }
 }
 
 
