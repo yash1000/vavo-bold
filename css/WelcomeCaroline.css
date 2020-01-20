@@ -3,6 +3,10 @@ body {
   color: rgba(255, 255, 255, 0.69);
 }
 
+p {
+  font-size: 15px;
+}
+
 .content-wrapper {
   width: 100%;
   padding-top: 100px;
@@ -34,16 +38,23 @@ body {
   color: #ffffff;
 }
 
+.carousel {
+  height: fit-content;
+  border: none;
+  outline: none;
+  cursor: url("../assets/images/About/bigdragicon.png"), auto !important;
+}
+
 .carousel-cell {
   margin-right: 10%;
   display: block;
   background-size: cover;
   width: 66%;
-  height: 50rem;
   margin-right: 10%;
   border-radius: 5px;
   margin-left: 10rem;
   counter-increment: carousel-cell;
+  /* cursor: url("../assets/images/About/bigdragicon.png") !important; */
 }
 
 .paragraph-wrapper {
@@ -54,6 +65,8 @@ body {
 
 .paragraph-wrapper p {
   padding-top: 40px;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .nextPage-footer-wrapper {
@@ -71,11 +84,16 @@ h3 {
   font-size: 16px;
 }
 
+label {
+  font-size: 13px;
+}
+
 .form-wrapper {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .form-text-area {
   width: 100%;
   background-color: #000000;
@@ -88,6 +106,12 @@ h3 {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+textarea,
+input,
+button {
+  font-size: 14px;
 }
 
 .deatails-section {

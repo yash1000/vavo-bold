@@ -18,6 +18,15 @@ p {
   padding-top: 100px;
 }
 
+header ul li a {
+  color: #ffffff;
+}
+
+.nav-inner-wrapper {
+  max-width: 1440px;
+  padding-top: 30px;
+}
+
 .header-wrapper {
   width: 80%;
   padding-left: 100px;
@@ -64,8 +73,6 @@ p {
   display: block;
   background-size: cover;
   width: 66%;
-  height: 50rem;
-  margin-right: 10%;
   border-radius: 5px;
   margin-left: 10rem;
   counter-increment: carousel-cell;
@@ -117,6 +124,13 @@ h3 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+label,
+input,
+button,
+textarea {
+  font-size: 14px;
 }
 
 .form-text-area {

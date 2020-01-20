@@ -13,12 +13,15 @@
       crossorigin="anonymous"
     />
     <!-- css include -->
-    <link rel="stylesheet" href="./css/InterviewWithJessica.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/animation/animate.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css" />
+    <link rel="stylesheet" href="./css/InterviewWithJessica.css" />
 
     <!-- Fonts - DM Sans 400,500,700 -->
     <link
@@ -28,6 +31,64 @@
   </head>
 
   <body>
+    <header>
+      <div class="">
+        <nav>
+          <div class="nav-inner-wrapper">
+            <div class="navbar-icon">
+              <a href="#">
+                <img src="./assets/images/vavo-logo-light.svg" alt="" />
+              </a>
+            </div>
+            <div class="toggle">
+              <button id="ham-btn" class="navbar-toggler" type="button">
+                <div class="ham-wrapper icon-open">
+                  <div class="line top-ham"></div>
+                  <!-- <div class="line mid-ham"></div> -->
+                  <div class="line bot-ham"></div>
+                </div>
+              </button>
+            </div>
+
+            <ul>
+              <li class="animated fadeInUp fast nav-hover navigation-selected">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Work</span>
+                    <span class="navlist-hover">Work</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">About</span>
+                    <span class="navlist-hover">About</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Journal</span>
+                    <span class="navlist-hover">Journal</span>
+                  </a>
+                </div>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <div class="list-box">
+                  <a class="dmsans" href="#">
+                    <span class="default">Contact</span>
+                    <span class="navlist-hover">Contact</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
     <section>
       <div class="content-wrapper">
         <div class="container">
@@ -254,5 +315,6 @@
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="./js/journal_script.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
