@@ -92,7 +92,17 @@ h2 {
   margin-left: 10rem;
   counter-increment: carousel-cell; */
 }
+.carousel {
+  cursor: url('../assets/images/About/bigdragicon.png'), auto !important;
 
+}
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor:  url('../assets/images/About/smalldragicon.png'), auto !important;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor:  url('../assets/images/About/bigdragicon.png'), auto !important;
+}
 
 .text0{
   cursor: copy;
