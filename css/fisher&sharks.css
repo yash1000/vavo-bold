@@ -89,6 +89,9 @@ padding-left: 5%;    /* margin-right: 1%; */
     margin-left: auto;
     margin-right: auto;
 }
+.common-text a{
+  color: white;
+}
 .text1{
     position: relative;
     display: flex;

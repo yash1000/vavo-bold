@@ -103,7 +103,7 @@
     .common-text a{
         font-size: 52px;
     }
-    .common-text-wrapper img{
+    .common-text-wrapper img.common-text-wrapper video{
        display: none!important;
     }
 
