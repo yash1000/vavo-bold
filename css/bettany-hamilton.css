@@ -148,16 +148,35 @@ body
     margin-bottom: 0;
 }
 
+.carousel {
+    /* margin-top: 15%; */
+    /* margin-bottom: 120px; */
+    height: fit-content;
+    border:none;
+    outline:none;
+    cursor: url('../assets/images/About/bigdragicon.png'), auto !important;
+    
+}
 
 .carousel-cell {
-    width: 70%; /* full width */
-    height: 500px; /* height of carousel */
-    margin-right: 80px;
-  }
+  width: 780px;
+  height: 519.98px;
+  margin-right: 100px;
+  overflow-x: hidden;
+  border:none;
+  outline:none;
+}
 
-.flickity-button {
-    display: none;
-  }
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+    cursor:  url('../assets/images/About/smalldragicon.png'), auto !important;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    cursor:  url('../assets/images/About/bigdragicon.png'), auto !important;
+}
+
+
+
 
 
 .single-pagination {

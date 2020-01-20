@@ -1,8 +1,7 @@
-$('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true
-  });
+var $carousel = $('.carousel').flickity({
+  prevNextButtons: false,
+  pageDots: false,
+});
 
   AOS.init();
 

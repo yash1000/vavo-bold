@@ -34,7 +34,7 @@
                     <div class="hero-animation">
                         <h1 class="primary-color">Start your day with a new routine</h1>
                     </div>
-                    <div class="hero-animation1">    
+                    <div class="hero-animation1">
                         <div class="post-meta">
                             <div class="post">
                                 <span class="secondary-color post-author">Written by <a href="#"
@@ -90,20 +90,39 @@
                     </div>
                 </div>
 
+            </div>
+            <div class="spacer-big"></div>
 
-                <div class="hero-wrapper">
-                    <div class="spacer-big"></div>
-
-                    <div class="main-carousel">
+            <!-- <div class="main-carousel">
                         <div class="carousel-cell"><img class="main-image"
                                 src="./assets/images/start-your-day/blog-single-7.jpg"></div>
                         <div class="carousel-cell"><img class="main-image"
                                 src="./assets/images/start-your-day/blog-single-8.jpg"></div>
                         <div class="carousel-cell"><img class="main-image"
                                 src="./assets/images/start-your-day/blog-single-9.jpg"></div>
-                    </div>
+                    </div> -->
 
-                    <div class="spacer-big"></div>
+            <!--Carousel starts-->
+            <div class="carousel" data-flickity>
+                <div class="carousel-cell"><img src="./assets/images/start-your-day/blog-single-8.jpg" height="100%"
+                    width="100%" style="position: relative;"></div>
+                <div class="carousel-cell"><img src="./assets/images/start-your-day/blog-single-9.jpg" height="100%"
+                        width="100%" style="position: relative;"></div>
+                <div class="carousel-cell"><img src="./assets/images/start-your-day/blog-single-7.jpg" height="100%"
+                        width="100%" style="position: relative;"></div>
+                
+
+            </div>
+            <!--Carousel ended-->
+
+
+
+
+            <div class="spacer-big"></div>
+
+            <div class="container">
+
+                <div class="hero-wrapper">
 
                     <h3 class="primary-color">Supplies it with the necessary regelialia. It is a paradisematic country.
                     </h3>
@@ -125,61 +144,61 @@
 
 
 
-                        <div class="single-pagination">
+                    <div class="single-pagination">
 
-                            <ul class="pagination">
-                                <li class="prev">
-                                    <a href="file:///F:/vavo-bold/fachwerkhaus.html">
-                                        <span class="text">Previous Post</span>
-                                        <span class="post-title">Fachwerkhaus</span>
-                                    </a>
-                                </li>
-                                <li class="next ml-auto inactive">
-                                    <a href="#">
-                                        <span class="text ">Next Post</span>
-                                        <!-- <span class="post-title">What really makes us happy</span> -->
-                                    </a>
-                                </li>
-                            </ul>
+                        <ul class="pagination">
+                            <li class="prev">
+                                <a href="file:///F:/vavo-bold/fachwerkhaus.html">
+                                    <span class="text">Previous Post</span>
+                                    <span class="post-title">Fachwerkhaus</span>
+                                </a>
+                            </li>
+                            <li class="next ml-auto inactive">
+                                <a href="#">
+                                    <span class="text ">Next Post</span>
+                                    <!-- <span class="post-title">What really makes us happy</span> -->
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h6 class="form-title primary-color">Leave a comment </h6>
+                    <!-- <div class="form">   -->
+                    <form action="file:///F:/vavo-bold/start-your-day.html">
+                        <div class="row">
+                            <div class="col-12">
+                                <label>Your comment *</label>
+                                <textarea class="text-area" placeholder=""></textarea>
+                            </div>
                         </div>
-    
-                        <h6 class="form-title primary-color">Leave a comment </h6>
-                        <!-- <div class="form">   -->
-                        <form action="file:///F:/vavo-bold/start-your-day.html">
-                            <div class="row">
-                                <div class="col-12">
-                                    <label>Your comment *</label>
-                                    <textarea class="text-area" placeholder=""></textarea>
-                                </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <label>Name *</label>
+                                <input type="text" placeholder="" />
                             </div>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4">
-                                    <label>Name *</label>
-                                    <input type="text" placeholder="" />
-                                </div>
-                                <div class="col-lg-4 col-md-4">
-                                    <label>Email *</label>
-                                    <input type="text" placeholder="" />
-                                </div>
-                                <div class="col-lg-4 col-md-4">
-                                    <label>Website *</label>
-                                    <input type="text" placeholder="" />
-                                </div>
+                            <div class="col-lg-4 col-md-4">
+                                <label>Email *</label>
+                                <input type="text" placeholder="" />
                             </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <!-- <button type="button" class="btn btn-light">Post Comment</button> -->
-                                    <input name="submit" type="submit" class="submit" value="Post Comment">
-                                </div>
+                            <div class="col-lg-4 col-md-4">
+                                <label>Website *</label>
+                                <input type="text" placeholder="" />
                             </div>
-                            <!-- </div> -->
-                        </form>
-                        <div class="spacer-medium"></div>
-    
-               
-               
-               
-               
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- <button type="button" class="btn btn-light">Post Comment</button> -->
+                                <input name="submit" type="submit" class="submit" value="Post Comment">
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </form>
+                    <div class="spacer-medium"></div>
+
+
+
+
+
                 </div>
             </div>
         </section>
@@ -207,36 +226,36 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
 
     <script>
-    
-    $('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true
-  });
 
-  AOS.init();
-
-  $(window).on('load', function(){
-    $(".hero-animation").css({
-        "transform":"rotate(0)",
-        "transformOrigin":"top right",
-        "transition":"all 1s ease",
-        "opacity":"1"
-    })
-
-    $(".hero-animation1").css({
-      "transform":"rotate(0)",
-
-      "transformOrigin":"top",
-      "transition":"all 1s ease",
-      "opacity":"1"
-  })
+        var $carousel = $('.carousel').flickity({
+            prevNextButtons: false,
+            pageDots: false,
+        });
 
 
-    });
+        AOS.init();
+
+        $(window).on('load', function () {
+            $(".hero-animation").css({
+                "transform": "rotate(0)",
+                "transformOrigin": "top right",
+                "transition": "all 1s ease",
+                "opacity": "1"
+            })
+
+            $(".hero-animation1").css({
+                "transform": "rotate(0)",
+
+                "transformOrigin": "top",
+                "transition": "all 1s ease",
+                "opacity": "1"
+            })
+
+
+        });
 
     </script>
 
