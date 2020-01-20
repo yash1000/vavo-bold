@@ -61,7 +61,7 @@ body
 
 .hero-content{
     margin: auto;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-delay: 0s;
 }
 .hero-title{
@@ -71,7 +71,7 @@ body
 }
 .hero-line{
     font-size: 16px;
-    padding-left: 4rem;
+    padding-left: 2.5rem;
     line-height: 24px;
     font-weight: 300;
     margin-top: 20px;
@@ -206,11 +206,7 @@ body
     height: 100vh;
 }
 
-.next-page{
-    /* margin: auto; */
-    /* position: relative; */
-    /* display: flex   ; */
-}
+
 
 .next-page a{
     /* position: relative; */
@@ -227,6 +223,10 @@ body
     display: inline;
     left: 25rem;
     top: 25rem;
+}
+
+.common-text a{
+    color: White;
 }
 
 

@@ -11,7 +11,8 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css">
     <link rel="stylesheet" href="./css/monck.css">
     <!-- <link rel="stylesheet" href="./css/responsive.css"> -->
 
@@ -156,21 +157,15 @@
 
 
         <section class="last-section">
-            <div class="next-page">
-
-                <!-- <div id="mouseDiv" onmouseover="addImage()" onmouseout="removeImage()" onmousemove="moveImage(event)"> -->
-                <!-- <a href="#"> -->
-                <a href="#" id="module1">
-                <h1  class="primary-color">Yatai</h1>
-                <!-- </a> -->
-                <div class="module" id="module"></div>
-
-                </a>
-                <!-- </div> -->
-
-                <!-- <div class="overlay-img">
-                    <img class="caroline" id='myImage' src='./assets/images/Monck/portfolio-main-28.jpg'>
-                </div> -->
+            <div class="common-text-container">
+                <div class="common-text-wrapper">
+                    <img id="imag" src="./assets/images/Monck/portfolio-main-28.jpg" alt="">
+                    <div class="common-text dmsans">
+                        <a href="#" id="c-text">
+                            Yatai
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -186,6 +181,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 
     <script>
         window.addEventListener('scroll', function () {
@@ -201,49 +197,7 @@
         });
     </script>
 
-    <script>
-
-        $(document).ready(function () {
-           
-            const el1 = document.querySelector("#module1");
-            const el = document.querySelector("#module");
-
-
-            el1.addEventListener("mousemove", (e) => {
-                el.style.backgroundPositionX = +(e.offsetX + 0) + "px";
-                el.style.backgroundPositionY = +(e.offsetY  + 0) + "px";
-                console.log(el.style.backgroundPositionX);
-            });
-
-
-            $("#module1").mouseleave(function () {
-                 $( "#module" ).css('display','none');
-                $("#module").fadeOut("slow", function () {
-                    // Animation complete.
-
-                });
-
-            });
-
-            $("#module1").mouseenter(function () {
-                // console.log("mouse enteres")
-                $("#module").css('display', 'Inline-block')
-                $("#module").fadeIn("slow", function () {
-                    // Animation complete.
-                });
-            });
-        });
-
-//       $(document).ready(function(){
-//   $('.text0').one('mouseenter',(function(){
-//     $('body').toggleClass('text0', $(this).mouseenter);})
-//  .one('mouseleave',(function(){
-//     $('text0').toggleClass('body', $(this).mouseleave);})
-//       })
-
-
-    </script>
-
+    
 </body>
 
 </html>
