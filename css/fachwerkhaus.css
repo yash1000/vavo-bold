@@ -47,15 +47,29 @@ body
     height: 20px;
 }
 
-
-header ul li a,header ul li a:hover{
-    font-size: .7rem;
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
+.nav-inner-wrapper {
+    margin: auto;
+    max-width: 1189px;
+    margin-top: 1rem;
 }
 
+header ul li a,header ul li a:hover{
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
 
+.nav-hover:hover::before,.navigation-selected::before {
+    transition: width 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    position: absolute!important;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: rgba(255,255,255,.5);
+    bottom: 0px;
+    left: 0;
+}
 .line {
     height: 2px;
     position: absolute;
@@ -72,7 +86,7 @@ header ul li a,header ul li a:hover{
 
 .hero-page{
     height: auto;
-    margin: 10.5rem auto 0;
+    margin: 7rem auto 0;
 }
 
 .wrapper-small{
@@ -323,7 +337,7 @@ input:focus{
         border: none;
         margin-top: 50px;
         width: auto;
-        height: 2.5rem;
+        height: 1.8rem;
         position: relative;
         border-radius: 0;
 }

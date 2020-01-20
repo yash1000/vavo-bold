@@ -208,64 +208,12 @@ body
 
 
 
-.next-page a{
-    /* position: relative; */
-    text-decoration: none;
-}
-
-.last-section .next-page h1{
-    font-size: 64px;
-    font-weight: 700;
-    text-decoration: none;
-    z-index: 1;
-    margin: auto;
-    position: relative;
-    display: inline;
-    left: 25rem;
-    top: 25rem;
-}
 
 .common-text a{
     color: White;
 }
 
 
-
-.module {
-    background-image: url('../assets/images/Monck/portfolio-main-28.jpg');
-    height: 100%;
-    width: 100%;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    z-index: 0;
-    display: inline-block;
-    position: absolute;
-   
-  }
-
-  
-
-
-
-
-
-
-
-/*
-.next-page a{
-    text-decoration: none;
-}
-
-.caroline{
-    width: 500px;
-    height: 300px;
-    display: none;
-    left: 0%;
-    pointer-events: none;
-    transform-origin: top;
-    margin: auto;
-
-} */
 
 /* -----------------------------------------media queries------------------------------------------ */
 
