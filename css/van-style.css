@@ -1,7 +1,7 @@
 body{
     background-color: black;
 }
-header ul li a,header ul li a:hover{
+header ul li a, header ul li a:hover {
     color:white;
 }
 .line{
@@ -10,6 +10,22 @@ header ul li a,header ul li a:hover{
 .banner{
     padding-top: 100px;
 }
+
+.sidebar-share div, .sidebar a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.sidebar-share, .sidebar{
+    z-index: 100;
+}
+
+
+
+
+
 .header-spacing{
     width: 700px;
     margin-left: auto;
@@ -20,6 +36,9 @@ header ul li a,header ul li a:hover{
     font-size: 80px;  
     line-height: 1; 
     font-weight: 600;
+}
+.writer{
+    font-size: 11px;
 }
 .post-meta .post a:hover{
     color: #ffffff; 
@@ -179,3 +198,4 @@ input:focus{
     position: relative;
     border-radius: 0;
 }
+

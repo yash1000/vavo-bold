@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- custom css  -->
-    <link rel="stylesheet" href="./css/storm-style.css">
+    
 
     <link rel="stylesheet" href="./css/responsive/main-responsive.css">
     <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./css/storm-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <title>welcome to Yatai</title>
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="">
         <nav>
+        <div class="nav-inner-wrapper">
           <div class="navbar-icon">
             <a href="#">
-              <img src="./assets/images/vavo-logo.svg" alt="" />
+              <img src="./assets/images/vavo-logo-light.svg" alt="" />
             </a>
           </div>
           <div class="toggle">
@@ -35,27 +38,52 @@
               </div>
             </button>
           </div>
-
+  
           <ul>
-            <li class="animated fadeInUp fast">
-              <a class="dmsans" href="#">Work</a>
+            <li class="animated fadeInUp fast nav-hover navigation-selected">
+              <div class="list-box">
+                <a class="dmsans" href="./index.html">
+                  <span class="default">Work</span>
+                  <span class="navlist-hover">Work</span>
+                </a>
+              </div>
             </li>
-            <li class="animated fadeInUp fast">
-              <a class="dmsans" href="#">About</a>
+            <li class="animated fadeInUp fast nav-hover">
+              <div class="list-box">
+                <a class="dmsans" href="./about.html">
+                  <span class="default">About</span>
+                  <span class="navlist-hover">About</span>
+                </a>
+              </div>
             </li>
-            <li class="animated fadeInUp fast">
-              <a class="dmsans" href="#">Journal</a>
+            <li class="animated fadeInUp fast nav-hover">
+              <div class="list-box">
+                <a class="dmsans" href="./journal.html">
+                  <span class="default">Journal</span>
+                  <span class="navlist-hover">Journal</span>
+                </a>
+              </div>
             </li>
-            <li class="animated fadeInUp fast">
-              <a class="dmsans" href="#">Contact</a>
+            <li class="animated fadeInUp fast nav-hover">
+              <div class="list-box">
+                <a class="dmsans" href="./contact.html">
+                  <span class="default">Contact</span>
+                  <span class="navlist-hover">Contact</span>
+                </a>
+              </div>
             </li>
-          </ul>
+        </ul>
+        </div>
+  
         </nav>
       </div>
     </header>
+    
     <section>
         <div class="banner">
-          <iframe id="bgvid-0" class="video-background vimeo-muted  vimeo-play" style="width: 1929px; height: 1127px; max-width: inherit; position: relative; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);" src="https://player.vimeo.com/video/257341401?api=1&amp;loop=1&amp;autoplay=1&amp;background=1&amp;muted=1&amp;player_id=bgvid-0"></iframe>
+          <video loop="true" muted="muted" autoplay id="fisher">
+            <source src="./assets/images/Journal/fresh_storm/motivational_vg.mp4" type="video/mp4">
+        </video>
         </div>
     </section>
 

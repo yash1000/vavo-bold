@@ -12,6 +12,17 @@ body{
     /* background-color: transparent;  */
 }
 
+.sidebar-share div, .sidebar a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.sidebar-share, .sidebar{
+    z-index: 100;
+}
+
 .parallax-text{
     position:absolute;
     bottom: 30px;
@@ -68,6 +79,62 @@ body{
 .last-class{
     height: 500px;
 }
+
+
+
+.last-section{
+    height: 100vh;
+}
+
+.next-page a{
+    /* position: relative; */
+    text-decoration: none;
+}
+
+.last-section .next-page h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-decoration: none;
+    z-index: 1;
+    margin: auto;
+    position: relative;
+    display: inline;
+    left: 25rem;
+    top: 25rem;
+}
+
+.common-text a{
+    color: black;
+}
+
+.carousel {
+    /* margin-top: 15%; */
+    /* margin-bottom: 120px; */
+    height: fit-content;
+    border:none;
+    outline:none;
+    cursor: url('../assets/images/About/bigdragicon.png'), auto !important;
+
+}
+
+.carousel-cell {
+  width: 780px;
+  height: 519.98px;
+  margin-right: 100px;
+  overflow-x: hidden;
+  border:none;
+  outline:none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+    cursor:  url('../assets/images/About/smalldragicon.png'), auto !important;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    cursor:  url('../assets/images/About/bigdragicon.png'), auto !important;
+}
+
+
 
 
 @media only screen and (max-width: 1199px){
