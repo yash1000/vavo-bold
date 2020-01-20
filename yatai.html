@@ -9,10 +9,63 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- custom css  -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="./css/yatai-style.css">
     <title>welcome to Yatai</title>
   </head>
   <body>
+    <header>
+        <div class="container">
+          <nav>
+            <div class="navbar-icon">
+              <a href="#">
+                <img src="./assets/images/vavo-logo.svg" alt="" />
+              </a>
+            </div>
+            <div class="toggle">
+              <button id="ham-btn" class="navbar-toggler" type="button">
+                <div class="ham-wrapper icon-open">
+                  <div class="line top-ham"></div>
+                  <!-- <div class="line mid-ham"></div> -->
+                  <div class="line bot-ham"></div>
+                </div>
+              </button>
+            </div>
+  
+            <ul>
+              <li class="animated fadeInUp fast nav-hover navigation-selected">
+                
+                  <a class="dmsans" href="#">Work</a>
+              
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <a class="dmsans" href="#">About</a>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <a class="dmsans" href="#">Journal</a>
+              </li>
+              <li class="animated fadeInUp fast nav-hover">
+                <a class="dmsans" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+  
+    <div class="sidebar-share-wrapper">
+      <div class="sidebar-share">
+        
+          <ul>
+              <li>
+                  <a href="#" id="sidebar-share-link" class="dmsans">
+                      Share
+                  </a>
+              </li>
+            </ul>
+      </div>
+     </div>
       <!-- <section >
         <div class="parallax"></div>
         <div class="parallax-text">
@@ -43,28 +96,115 @@
               </div>
           </div>
       </section> -->
-      
-      <section>
+    <section class="parallax">
+        <div class="parallax-text">
+            <p class="dmsans text-center"><strong>Yatai</strong></p>
+        </div>
+    </section> 
+
+    
+    <!-- <section class="yatai-description">
+        <p class="dmsans primary-font primary-opacity description">There’s a rich history behind every glass of tasty Cristal. As the first Belgian Pils it played a pioneering role in reshaping the beer world forever. In order to keep up with the ever-changing market, the brand’s visual identity underwent many makeovers over the years.</p>
+        <p class="dmsans big-space"></p>
+    </section> 
+     -->
+     <section>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-2"></div>
+                 <div class="col-lg-6 col-md-8">
+                    <p class="dmsans primary-font primary-opacity description">There’s a rich history behind every glass of tasty Cristal. As the first Belgian Pils it played a pioneering role in reshaping the beer world forever. In order to keep up with the ever-changing market, the brand’s visual identity underwent many makeovers over the years.</p>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="big-space">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-2"></div>
+                 <div class="col-sm-12 col-md-3">
+                     <p class="dmsans secondary-font secondary-opacity">Year</p>
+                     <p class="dmsans primary-font primary-opacity small-space">2018</p>
+                 </div>
+                 <div class="col-sm-12 col-md-3">
+                     <p class="dmsans secondary-font secondary-opacity">Role</p>
+                     <p class="dmsans primary-font primary-opacity small-space">Creative Director</p>
+                 </div>
+                 <div class="col-sm-12 col-md-3">
+                     <p class="dmsans secondary-font secondary-opacity">Client</p>
+                     <p class="dmsans primary-font primary-opacity small-space">Ashley Barty</p>
+                 </div>
+             </div>
+         </div>
+    </section>
+    
+    <section class="big-space">
         <div class="container">
-            <div class="gif-position">
-                <div class="gif1-position">
-                    <img src="./assets/images/Yatai/portfolio-single-53.gif" alt="gif1" height="520px" width="520px">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img class="gif1-position" src="./assets/images/Yatai/portfolio-single-53.gif" alt="gif1" height="470px" width="470px">
                 </div>
-                <div class="gif2-position">
-                    <img src="./assets/images/Yatai/portfolio-single-54.gif" alt="gif2" height="520px" width="520px">
+                <div class="col-md-6 col-sm-12">
+                    <img class="gif2-position" src="./assets/images/Yatai/portfolio-single-54.gif" alt="gif2" height="470px" width="470px">
                 </div>
             </div>
         </div>
-      </section>
+    </section>
+    <section class="big-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2"></div>
+                <div class="col-xl-6 col-lg-8 col-md-10">
+                    <h2 class="dmsans">
+                        <strong>crafting the</strong><br>
+                        <strong>core elements</strong><br>
+                        <strong>before being served.</strong>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="big-space last-class"></section>
+    <section class="big-space"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <h6 class="dmsans secondary-opacity">Our Concept</h6>
+                    <h5 class="dmsans">The symbol is the maximum synthesis of letter A with the wordmark’s accent.</h5>
+                    <p class="dmsans primary-font primary-opacity small-space">It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.  Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane.</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <img class="mix-img" src="./assets/images/Yatai/portfolio-single-58.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="last-section">
+        <div class="next-page"> -->
 
-    
+            <!-- <div id="mouseDiv" onmouseover="addImage()" onmouseout="removeImage()" onmousemove="moveImage(event)"> -->
+                <!-- <a href="#"> -->
+                    <!-- <h1 class="dmsans">Carve</h1> -->
+                <!-- </a> -->
+            <!-- </div> -->
+
+            <!-- <div class="overlay-img">
+                <img class="caroline" id='myImage' src='./assets/images/Monck/portfolio-main-28.jpg'>
+            </div> -->
+        <!-- </div>
+    </section> -->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="./js/main.js"></script>
+    </body>
 </html>
 
  

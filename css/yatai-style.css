@@ -1,61 +1,100 @@
-
+body{
+    color: black;
+}
 .parallax {
     background-image: url("../assets/images/Yatai/portfolio-hero-2.jpg");
     min-height: 100vh; 
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: transparent; 
+    position: relative;
+    /* background-color: transparent;  */
 }
 
 .parallax-text{
-    /* height:auto; */
-    /* font-size:40px; */
-    display: flex;
+    position:absolute;
+    bottom: 30px;
+    /* left: 46%; */
+    left: 50%;
+    margin-left: -85px;
+    font-size:75px;
     background-color: transparent;
 }
-
-.h1{
-    font-weight: 700;
-    margin: auto;
-}
-p{
-    text-align: left;
-    font-size: 20px;
-    margin-left :auto;
+/* .yatai-description{
+    background-color: white;
+    width: 780px;
+    margin-left: auto;
     margin-right: auto;
-}
-
-/* section 2 now  */
-/* .gif-position{
-    position: relative;
-    display:flex;
 } */
-/* .gif1-position{
-    position: absolute;
-    
-    height: 500px;
-    width: 500px;
-    top:10px;
-    left: 0;
+.description{
+    width: 90%;
+    margin-bottom: -20px;
 }
-.gif2-position{
-    position: absolute;
-    
-    height: 500px;
-    width: 500px;
-    top:10px;
-    bottom: 0;
-} */
-.gif-position{
-    display: flex;
-    position: relative;
+.primary-font{
+    font-size: 14px;
+}
+.primary-opacity{
+    opacity: 0.61;
+}
+.secondary-font{
+    font-size: 11px;
+}
+.secondary-opacity{
+    opacity: 0.31;
+}
+.big-space{
+    margin-top: 100px;
+}
+.small-space{
+    margin-top: 40px;
+}
+.mix-img{
+    height: 100%;
+    width: 100%;
+    float: right;
+    /* margin: 0 auto; */
 }
 .gif1-position{
-    flex: 1;
+    height: 90%;
+    width: 90%;
+    float: right;
 }
 .gif2-position{
-    flex: 1;
-    margin-top: 40px;
+    margin-top: 50px;
+    width: 90%;
+    height: 90%;
+}
+.last-class{
+    height: 500px;
+}
+
+@media only screen and (max-width: 1199px){
+
+
+}
+@media only screen and (max-width: 991px){
+    .parallax-text{
+        font-size: 68px;
+        margin-left: -80px;
+    }
+    .small-space{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .parallax-text{
+        font-size: 60px;
+        margin-left: -71px;
+    }
+    .gif1-position{
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .gif1-position{
+        float: left;
+    }
 }
