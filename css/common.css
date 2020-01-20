@@ -1,4 +1,8 @@
-section{
+body{
+    margin: 0;
+    padding: 0;
+}
+.test{
     height: 500px;
 }
 .common-text-wrapper{
@@ -16,11 +20,35 @@ section{
     height: 250px;
     width: 250px;
 }
-.common-text{
-    color: black;
+.common-text a{
+ 
+    color: blue;
     text-decoration: none;
     font-size: 3em;
     height: fit-content;
     width: fit-content;
+
+    /* height: 67px;
+    width: 252px; */
+   
+    /* background-color: aqua; */
+}
+.common-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
     margin: auto;
+    height: 67px;
+    width: 252px;
+    z-index:1;
+  
+}
+#imag{
+    z-index: -1;
+    /* transition: 0.1s ease all; */
+    /* transition: 0.5s all ease; */
+    /* visibility: hidden; */
+    display: none;
 }

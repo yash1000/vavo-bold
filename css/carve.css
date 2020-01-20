@@ -117,10 +117,16 @@ section{
     background-color: White;
 }
 header ul li a, header ul li a:hover {
+    font-size: .45rem;
+    text-decoration: none;
     color: white;
+    font-weight: 400;
 }
-
+.list-box {
+    height: 16px;
+}
 .nav-hover:hover::before, .navigation-selected::before {
-    background-color: white;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 

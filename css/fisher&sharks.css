@@ -1,0 +1,228 @@
+.ty{
+    background-color: black;
+    color: white;
+}
+.fisher-shark-text{
+    color: rgba(255,255,255,.48);
+}
+.fisher-shark-text1{
+color:rgba(255,255,255,.69);}
+.wrapper11{
+    margin-top: 20%;
+  
+}
+header ul li a,header ul li a:hover{
+  color: white !important;
+}
+
+.wrapper10{
+ width: 70%;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 5%;
+ margin-bottom: 15%;
+}
+.wrapper3{
+    margin-top: 10%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fisher-image{
+    background-image: url(../assets/images/Fisher-n-sharks/portfolio-single-59.jpg);
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    margin-top: 10%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.fisher-text{
+    font-size: 30px !important;
+}
+.container-fluid{
+    padding: 0px !important;
+}
+.carousel-cell {
+    
+    display: block;
+    width: 70%;
+    height: 90%;
+   
+padding-left: 5%;    /* margin-right: 1%; */
+    background-size: cover;
+    /*width: 66%;
+    height: 50rem;
+    margin-right: 10%;
+    border-radius: 5px;
+    margin-left: 10rem;
+    counter-increment: carousel-cell; */
+  }
+  .carousel{
+      margin-top: 10%;
+     
+  }
+  .wrapper12{
+      width: 73%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+.fisher-image3{
+    background-image: url(../assets/images/Fisher-n-sharks/portfolio-single-63.jpg);
+    display: block;
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+   
+}
+.fisher-h4{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top:5%;
+}
+.last-h4{
+    font-size:60px ;
+}
+.wrapper-last{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text1{
+    position: relative;
+    display: flex;
+    height: 100%;
+  }
+  
+  .module {
+    position: absolute;
+    background-image: url(../assets/images/Botani/portfolio-single-28.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    z-index: 5;
+    display: none;
+
+  }
+  #module1{
+    margin: auto;
+    z-index: 6;
+    transform-origin: top right;
+  transform:translateY(5%) rotate(-10deg);
+  transition: 1s ease;
+    font-size: 60px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    cursor: pointer;
+
+   
+    height: fit-content;
+ 
+  }
+  @media (max-width: 1151px) {
+    .wrapper10{
+        margin-bottom: 15%;
+       }
+    .carousel-cell {
+    
+        display: block;
+        width: 80%;
+        height: 75%;
+       
+    padding-left: 5%;    /* margin-right: 1%; */
+        background-size: cover;
+        /*width: 66%;
+        height: 50rem;
+        margin-right: 10%;
+        border-radius: 5px;
+        margin-left: 10rem;
+        counter-increment: carousel-cell; */
+      }
+      .wrapper12{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fisher-image{
+     
+        background-size:contain;
+       
+    }
+  }
+  @media (max-width: 991px) {
+    .carousel-cell {
+  
+        height: 95%;
+  
+      }
+      .carousel{
+        height: 30%;
+       
+    }
+    .fisher-h4{
+        margin-top:10%;
+    }    
+    .fisher-image{
+       
+        background-position: center;
+        margin-top: -10%;
+        background-size:100%;
+       
+    }
+    .wrapper3{
+        margin-top: -10%;
+        width: 90%;
+   
+    }
+    .text1{
+        position: relative;
+        display: flex;
+        height: 50%;
+      }
+      .module {
+        position: absolute;
+        background-image: url(../assets/images/Botani/portfolio-single-28.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: 10%;
+        background-repeat: no-repeat;
+        z-index: 5;
+        display: none;
+      }
+      #module1{
+        transform-origin: top right;
+      transform:translateY(5%) rotate(-10deg);
+      transition: 1s ease;
+        font-size: 40px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-weight: bold;
+        cursor: pointer;
+        height: fit-content;
+      }
+      .fisher-image3{
+       margin-top: 10%;
+       
+    }
+  }
+  @media (max-width: 768px) {
+  .module {
+    background-image: none; }
+  }
+  @media (max-width: 400px) {
+    .wrapper3{
+        margin-top: -40%;
+        width: 90%;
+   
+    }
+    .fisher-image{
+
+        margin-top: -40%;
+    }
+    .wrapper10{
+        width: 90%;
+       }
+  }
