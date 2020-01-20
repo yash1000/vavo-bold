@@ -1,0 +1,72 @@
+@media(max-width:1199px){
+    h3{
+        font-size: 38px;
+    }
+
+    .carousel{
+        width:100%;
+        height:100%;
+    }
+}
+
+@media(max-width:991px){
+    h3{
+        font-size: 32px;
+    }
+    
+    .carousel{
+        width:100%;
+        height:100%;
+    }
+    .ourtxt{
+        font-size: 12px;
+    }
+    .passiontxt{
+        font-size: 18px;
+    }
+    .webuildtxt{
+        font-size: 13px;
+    }
+    .wetxt{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:767px){    
+    h3{
+        font-size: 30px;
+    }
+    .carousel{
+        width:100%;
+        height:100%;
+    }
+    .ourtxt{
+        font-size: 10px;
+    }
+    .passiontxt{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:575px){    
+    h3{
+        font-size: 28px;
+    }
+    .carousel{
+        width:100%;
+        height:100%;
+    }
+    .ourtxt{
+        font-size: 8px;
+    }
+}
+
+@media(max-width:309px){
+    .c--anim-btn span{
+        font-size: 10px;
+    }
+
+    hr{
+        width:230px;
+    }
+}
