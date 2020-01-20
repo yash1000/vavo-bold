@@ -276,6 +276,7 @@ button#ham-btn {
 
 
 .sidebar {
+    z-index: 100;
     overflow: hidden;
     animation:sidebar-animation 0.5s ease;
         right: 0;
@@ -310,6 +311,7 @@ button#ham-btn {
 }
 
 .sidebar-share {
+    z-index: 100;
     overflow: hidden;
     animation:sidebar-animation 0.5s ease;
     /* animation-delay: 500ms; */
