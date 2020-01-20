@@ -1,0 +1,255 @@
+.ty{
+    background-color: white;
+    color: black;
+}
+.fisher-shark-text{
+    color: rgba(255,255,255,.48);
+}
+.fisher-shark-text1{
+color:rgba(255,255,255,.69);}
+.wrapper11{
+    margin-top: 10%;
+    opacity: 0;
+    transition: 1s ease;
+}
+.botany1{
+    font-size: 30px;
+}
+
+.wrapper10{
+ width: 70%;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 5%;
+}
+.wrapper3{
+    margin-top: 10%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.botany-image{
+    background-image: url(../assets/images/Botani/portfolio-single-28.jpg);
+    height: 38rem;
+    transition: 1s ease;
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    transition: 3s ease;
+    background-position: center;
+    margin-top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fisher-text{
+    font-size: 30px !important;
+}
+/* .container-fluid{
+    padding: 0px !important;
+} */
+.carousel-cell {
+    
+    display: block;
+    width: 70%;
+    height: 90%;
+    background-size: cover;
+    /*width: 66%;
+    height: 50rem;
+    margin-right: 10%;
+    border-radius: 5px;
+    margin-left: 10rem;
+    counter-increment: carousel-cell; */
+  }
+  .carousel{
+      margin-top: 10%;
+  }
+  .wrapper12{
+      width: 73%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+.fisher-image3{
+    background-image: url(../assets/images/Botani/portfolio-single-32.jpg);
+    display: block;
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+   
+}
+.botany-font{
+    font-size: 30px;
+}
+.botany-font1{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.31);
+}
+.botony-section{
+    margin-top: 10%;
+}
+.botany-button{
+    bottom: 20;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    font-size: 10px;
+}
+.botany-font3{
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.61);
+}
+.botany-font4{
+    margin-top: 10%;
+    color: rgba(0, 0, 0, 0.61);
+}
+.botany-font5{
+    margin-top: 10%;
+
+}
+.wrapper-botany{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.wrapper-botany1{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fisher-h4{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top:10%;
+}
+.last-h4{
+    font-size:60px ;
+}
+.wrapper-last{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text1{
+    position: relative;
+    display: flex;
+    height: 100%;
+  }
+  
+  .module {
+    position: absolute;
+    background-image: url(../assets/images/Selviskker/portfolio-main-7.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    z-index: 5;
+    display: none;
+   
+  }
+  #module1{
+    margin: auto;
+    z-index: 6;
+    font-weight: bolder;
+    color: black;
+    font-size: 60px;
+    cursor: pointer;
+    height: fit-content;
+    transform-origin: top right;
+    transform:translateY(20%) rotate(-10deg);
+    transition: 1s ease;
+  }
+
+
+
+
+/* .carousel{
+    margin-top: 100px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+} */
+.carousel{
+
+    overflow:hidden;
+    cursor: pointer;
+    position: absolute;
+}
+.carousel-cell{
+    position: absolute;
+}
+.carousel-cell>img{
+    position: absolute;
+}
+  body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .box{
+    width:100%;
+    height:500px;
+    background:#eaeaea;
+    position:relative;
+    overflow:hidden;
+    cursor:crosshair;
+  }
+  
+  .circle{
+    background:#f00;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    position:absolute;
+    transform:translate3d(-50%,-50%,0);
+    transition:transform 0.2s cubic-bezier(.02,1.23,.79,1.08);
+    
+  }
+  
+  i{
+    color:#f00;
+  }
+
+
+
+
+
+  
+  @media (max-width: 991px) {
+    .wrapper-botany1{
+        width: 90%;
+    
+    }
+   
+    .wrapper-botany{
+        width: 90%;
+      
+    }
+    .wrapper12{
+        width: 100%;
+        
+    }
+  }
+  @media (max-width: 768px) {
+    .module {
+        background-image: none; 
+      }
+    .fisher-h4{
+       
+        margin-top:0%;
+    }
+    .wrapper10{
+        width: 90%;
+       }
+       .botany-button{
+      
+        position: relative;
+      margin-top: 5%;
+    }
+  
+  }
