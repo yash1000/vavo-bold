@@ -18,6 +18,16 @@
         font-size: 1.4rem;
         
       }
+
+      .nav-overlay {
+        z-index: 20;
+        height: 100vh;
+        /* color: aqua; */
+        /* background-color: transparent; */
+        background-image: url('../../assets/images/Carve/hero-carve.jpg');
+        background-position: center;
+        background-size: cover;
+    }
     
      
 

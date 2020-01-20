@@ -30,7 +30,7 @@
         z-index: 20;
         height: 100vh;
         /* color: aqua; */
-        background-color: aliceblue;
+        background-color: #ff6c3f;
     }
     
       .toggle{
@@ -96,7 +96,7 @@
 
     }
     .list-box{
-        height: 42  px;
+        height: 42px;
   
     }
   
