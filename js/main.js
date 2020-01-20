@@ -13,6 +13,25 @@ $(document).ready(function(){
         $('.sidebar').css('display','block');
 
     })
+
+
+    $('.common-text').hover(function(){
+        $('#imag').toggleClass("image-visible-onhover")
+        // $('#imag').css('display', 'block');
+        // console.log('object1')
+     })
+        // $('.common-text').mouseleave(function(){
+        //    $('#imag').css('display', 'none');
+        //    console.log('object')
+        // })
+     $(document).on( "mousemove", function( evt ) {
+          var x = (evt.pageX - $('.common-text-wrapper').offset().left) + 'px';
+       var y = (evt.pageY - $('.common-text-wrapper').offset().top) + 'px';
+     //   $('#imag').css('transform' : 'translate('+ x + ',' + y +')');
+     // console.log()
+       $('#imag').css({'transform' : 'translate(calc(' + x +' - 50%), calc(' + y + ' - 50%)'});
+     
+       });
 })
 
 $(window).scroll(function() {    

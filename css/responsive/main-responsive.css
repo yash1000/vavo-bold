@@ -27,7 +27,7 @@
       }
 
       .nav-overlay{
-        z-index: 20;
+        z-index: 1000;
         height: 100vh;
         /* color: aqua; */
         background-color: aliceblue;
@@ -99,7 +99,14 @@
         height: 42px;
   
     }
-  
+    
+    .common-text a{
+        font-size: 52px;
+    }
+    .common-text-wrapper img{
+       display: none!important;
+    }
+
 
 
 }
@@ -111,6 +118,10 @@
       .nav-inner-wrapper {
         max-width: 510px;
     }
+    .common-text a{
+        font-size: 40px;
+    }
+
      
 
 }
@@ -126,6 +137,9 @@
         }
         .navbar-active {
             margin-left: 25px;
+        }
+        .common-text a{
+            font-size: 100%;
         }
 
 }

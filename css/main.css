@@ -3,6 +3,8 @@
 
 body{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .anton{
     font-family: 'Anton', sans-serif;
@@ -343,4 +345,65 @@ button#ham-btn {
     cursor: pointer;
     color: black;
     font-size: 15px;
+}
+
+/* Image on text hover Animation */
+
+.common-text-container{
+    height: 100vh;
+}
+.common-text-wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.common-text-wrapper img{
+    /* margin: auto; */
+    /* top: 0;
+    left: 0;
+    transform: translate(0px, 230px); */
+    /* position: absolute; */
+    height: 350px;
+    width: 450px;
+}
+.common-text a{
+ 
+    color: black;
+    text-decoration: none;
+    font-size: 64px;
+    height: fit-content;
+    width: fit-content;
+
+    /* height: 67px;
+    width: 252px; */
+   
+    /* background-color: aqua; */
+}
+.common-text{
+   font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    z-index:1;
+  
+}
+
+.image-visible-onhover{
+    /* transition: 1s ease opacity; */
+    opacity: 1!important;
+}
+#imag{
+    transition: transform .2s ease , opacity 0.5s ease ;
+    z-index: -1;
+    opacity: 0;
+    /* transition: 0.1s ease all; */
+    /* transition: 0.5s all ease; */
+    /* visibility: hidden; */
+    /* display: none; */
 }
