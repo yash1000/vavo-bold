@@ -1,6 +1,7 @@
 body {
   background-color: #000000;
   color: rgba(255, 255, 255, 0.69);
+  font-family: "DM Sans", sans-serif;
 }
 
 h1,
@@ -19,13 +20,18 @@ p {
 
 .header-wrapper {
   width: 80%;
-  padding-left: 30px;
+  padding-left: 100px;
+  padding-top: 70px;
 }
 
 .header-wrapper h1 {
   font-size: 82px;
   font-weight: 700;
   line-height: 96px;
+}
+
+.header-wrapper p {
+  margin-top: 50px;
 }
 
 .image-wrapper img {
@@ -40,6 +46,13 @@ p {
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
+}
+
+.intro-wrapper h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
 }
 
 .intro-wrapper p {
@@ -64,14 +77,25 @@ p {
   margin-right: auto;
 }
 
+.article-wrapper h1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+}
+
 .article-wrapper p {
   padding-top: 40px;
+  font-size: 16px !important;
+  font-weight: 400;
 }
 
 .article-wrapper h2 {
-  border-left: 2px rgba(255, 255, 255, 0.69) solid;
+  border-left: 1px rgba(255, 255, 255, 0.69) solid;
   padding-left: 50px;
   margin-top: 40px;
+  font-size: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nextPage-footer-wrapper {

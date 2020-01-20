@@ -5,3 +5,5 @@ $(".carousel").flickity({
   cellAlign: "right"
   //   contain: true
 });
+
+AOS.init();

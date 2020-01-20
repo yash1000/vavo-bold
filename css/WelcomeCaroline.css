@@ -9,6 +9,12 @@ body {
   /* padding: 0 !important; */
 }
 
+.header-wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-wrapper h1 {
   font-size: 82px;
   font-weight: 700;
@@ -28,10 +34,41 @@ body {
   color: #ffffff;
 }
 
+.carousel-cell {
+  margin-right: 10%;
+  display: block;
+  background-size: cover;
+  width: 66%;
+  height: 50rem;
+  margin-right: 10%;
+  border-radius: 5px;
+  margin-left: 10rem;
+  counter-increment: carousel-cell;
+}
+
 .paragraph-wrapper {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.paragraph-wrapper p {
+  padding-top: 40px;
+}
+
+.nextPage-footer-wrapper {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px rgba(255, 255, 255, 0.69) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.69) solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .form-wrapper {
