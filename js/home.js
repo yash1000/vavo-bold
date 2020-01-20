@@ -2,11 +2,14 @@ function onHover(obj){
     $("h4:not(."+obj+" h4)").css({
         "opacity":"0",
         "z-index":"5",
+        "transition":"color 1s"
+
     });
 
     $("span:not(."+obj+" span)").css({
         "opacity":"0",
         "z-index":"5",
+        "transition":"color 1s"
     });
 
     $("."+obj+" h4").css({
