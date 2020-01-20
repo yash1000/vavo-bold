@@ -1,6 +1,7 @@
 function addImage(){
     document.getElementById('myImage').style.display = "block";
     // document.getElementById('myImage').style.transition = "all 1s";
+    // document.getElementById('myImage').style.transform = translate3d(20,20,0);
 }
 
 function removeImage(){
