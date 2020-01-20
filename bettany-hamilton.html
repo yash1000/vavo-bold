@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive/main-responsive.css" />
 
     <link rel="stylesheet" href="./css/bettany-hamilton.css">
     <!-- <link rel="stylesheet" href="./css/responsive.css"> -->
@@ -27,12 +29,106 @@
 
     <main class="site-main">
 
+        <header>
+            <div class="">
+              <nav>
+              <div class="nav-inner-wrapper">
+                <div class="navbar-icon">
+                  <a href="#">
+                    <img src="./assets/images/vavo-logo-light.svg" alt="" />
+                  </a>
+                </div>
+                <div class="toggle">
+                  <button id="ham-btn" class="navbar-toggler" type="button">
+                    <div class="ham-wrapper icon-open">
+                      <div class="line top-ham"></div>
+                      <!-- <div class="line mid-ham"></div> -->
+                      <div class="line bot-ham"></div>
+                    </div>
+                  </button>
+                </div>
+        
+                <ul>
+                  <li class="animated fadeInUp fast nav-hover ">
+                    <div class="list-box">
+                      <a class="dmsans" href="#">
+                        <span class="default">Work</span>
+                        <span class="navlist-hover">Work</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="animated fadeInUp fast nav-hover">
+                    <div class="list-box">
+                      <a class="dmsans" href="#">
+                        <span class="default">About</span>
+                        <span class="navlist-hover">About</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="animated fadeInUp fast nav-hover ">
+                    <div class="list-box">
+                      <a class="dmsans" href="#">
+                        <span class="default">Journal</span>
+                        <span class="navlist-hover">Journal</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="animated fadeInUp fast nav-hover">
+                    <div class="list-box">
+                      <a class="dmsans" href="#">
+                        <span class="default">Contact</span>
+                        <span class="navlist-hover">Contact</span>
+                      </a>
+                    </div>
+                  </li>
+              </ul>
+              </div>
+        
+              </nav>
+            </div>
+          </header>
+        
+          <div class="sidebar-share-wrapper ">
+            <div class="sidebar-share ">
+              <ul>
+                <li>
+                  <div id="sidebar-share-link" class="dmsans">
+                    Share
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="sidebar">
+            <ul>
+        
+            </ul>
+            <ul>
+              <li class="">
+        
+                <a class="dmsans" href="#">Fb</a>
+        
+              </li>
+              <li class="">
+                <a class="dmsans" href="#">Tw</a>
+              </li>
+              <li class="">
+                <a class="dmsans" href="#">Goo</a>
+              </li>
+              <li class="">
+                <a class="dmsans" href="#">Pin</a>
+              </li>
+            </ul>
+          </div>
+
+
         <section class="hero-banner">
             <div class="container">
                 <div class="hero-wrapper">
                     <div class="hero-animation">
                         <h1 class="primary-color">Inside – Words from Bettany Hamilton</h1>
-                        <div class="spacer-small"></div>
+                        <div class="spacer-mini"></div>
                     </div>
                     <div class="hero-animation1">
                         <div class="post-meta">
@@ -138,13 +234,13 @@
 
                         <ul class="pagination">
                             <li class="prev">
-                                <a href="#">
+                                <a href="./storm.html">
                                     <span class="text">Previous Post</span>
                                     <span class="post-title">Perfect Storm</span>
                                 </a>
                             </li>
                             <li class="next ml-auto">
-                                <a href="file:///F:/vavo-bold/fachwerkhaus.html">
+                                <a href="./fachwerkhaus.html">
                                     <span class="text  d-flex justify-content-end">Next Post</span>
                                     <span class="post-title">Fachwerkhaus</span>
                                 </a>
@@ -193,6 +289,36 @@
         </section>
 
 
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="footer-content dmsans">
+                            <h6>Crafting solutions for creative brands</h6>
+                            <ul class="social-media">
+                                <li class="facebook">
+                                    <a href="#">Facebook</a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="#">Instagram</a>
+                                </li>
+                                <li class="dribbble">
+                                    <a href="#">Dribbble</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="copyright dmsans">
+                            <h6>Created by Inexture Trainees 2020.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
 
@@ -217,6 +343,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="js/flickity.pkgd.min.js"></script>
+    <script src="./js/main.js"></script>
 
     <script src="./js/bettany-hamilton.js"></script>
 
