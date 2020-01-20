@@ -182,7 +182,8 @@ a{
 .page-pagination{
     margin: 80px 0px 40px 0px;  
     width: 100%;
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     /* overflow: hidden; */
 }
 .pg-pagination{
@@ -338,6 +339,7 @@ ul li:first-child {
     display: inline-block;
     margin: 0;
     position: relative;
+    color: rgba(255, 255, 255, 0.48);
 }
 .social-media a{
     color: white;
@@ -354,17 +356,18 @@ ul li:first-child {
     display: inline-flex;
     text-decoration: none;
 }
-.facebook a:hover{
-    color: rgb(74, 74, 170);
+
+#footer .facebook a:hover{
+    color: #446ebf;
 }
-.twitter a:hover{
-    color: cornflowerblue;
+#footer .twitter a:hover{
+    color: #39aadc
 }
-.instagram a:hover{
-    color: orange;
+#footer .instagram a:hover{
+    color: #95604b;
 }
-.dribble a:hover{
-    color: orchid;
+#footer .dribbble a:hover{
+    color: #f14980;
 }
 .right-col{
     text-align: right;
@@ -374,6 +377,9 @@ ul li:first-child {
     line-height: 19px;
     color: rgba(255, 255, 255, 0.48);
     margin-top: 30px;
+}
+.copyright h6{
+    color: rgba(255, 255, 255, 0.48);
 }
 .copyright a{
     color: rgba(255, 255, 255, 0.48);
@@ -417,4 +423,10 @@ ul li:first-child {
     font-size: 12px;
     text-decoration: none;
     color: white;
+}
+.footer-content h6{
+    color: white;
+}
+.footer-content li a{
+    color: rgba(255, 255, 255, 0.48);
 }
