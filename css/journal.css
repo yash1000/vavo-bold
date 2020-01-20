@@ -182,7 +182,8 @@ a{
 .page-pagination{
     margin: 80px 0px 40px 0px;  
     width: 100%;
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     /* overflow: hidden; */
 }
 .pg-pagination{
@@ -355,17 +356,18 @@ ul li:first-child {
     display: inline-flex;
     text-decoration: none;
 }
-.facebook a:hover{
-    color: rgb(74, 74, 170);
+
+#footer .facebook a:hover{
+    color: #446ebf;
 }
-.twitter a:hover{
-    color: cornflowerblue;
+#footer .twitter a:hover{
+    color: #39aadc
 }
-.instagram a:hover{
-    color: orange;
+#footer .instagram a:hover{
+    color: #95604b;
 }
-.dribble a:hover{
-    color: orchid;
+#footer .dribbble a:hover{
+    color: #f14980;
 }
 .right-col{
     text-align: right;
