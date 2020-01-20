@@ -113,5 +113,14 @@ section{
     margin-right: 80px;
 }
 
+.line {
+    background-color: White;
+}
+header ul li a, header ul li a:hover {
+    color: white;
+}
 
+.nav-hover:hover::before, .navigation-selected::before {
+    background-color: white;
+}
 

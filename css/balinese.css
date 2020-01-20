@@ -7,13 +7,13 @@ body{
 }
 
 nav{
-    position: fixed;
-    top: 0;
-    height: fit-content ;
-    max-width: 1110px;
-    width: 100%;
-    background-color: transparent;
-    z-index: 100;
+    z-index: 1000;
+}
+
+.nav-overlay{
+    z-index: 20;
+    height: 100vh;
+    background-color: black !important;
 }
 
 .navbar-icon{
@@ -199,6 +199,9 @@ button#ham-btn {
     font-weight: 700;
     font-size: 82px;
     line-height: 96px;
+    transform:translateY(5%) rotate(-5deg);
+    transform-origin: top right;
+    opacity: 0;
 }
 
 .post-details{
@@ -207,6 +210,8 @@ button#ham-btn {
     font-size: 12px;
     line-height: 19px;
     color: rgba(255,255,255,.48);
+    transform: translateY(100%);
+    opacity: 0;
 }
 
 .post-admin, .post-date{
@@ -407,13 +412,165 @@ button#ham-btn {
     text-decoration: none;
 }
 
-.sidebar-share a, .sidebar a {
+.sidebar-share div, .sidebar a {
     text-decoration: none;
-    color: white;
-    font-size: 13px;
+    color: white !important;
+    font-size: 13px !important;
     font-weight: 400 !important;
 }
 
 .sidebar-share, .sidebar{
     z-index: 100;
+}
+
+#footer{
+    margin-top: 100px;
+}
+
+.footer-content h6{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.footer-content ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content li{
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-content li a{
+    color: rgba(255,255,255,0.55);
+    padding-right: 30px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.copyright h6:hover{
+    color: rgba(255,255,255,1);
+}
+
+.copyright h6{
+    float: right;
+    padding-top: 35px;
+    color: rgba(255,255,255,0.55);
+    font-size: 12px;
+    line-height: 19px;
+    transition: all 0.2s ease;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 2rem;
+}
+
+.primary-color
+{
+    color: #ffffff;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 2rem;
+}
+
+label{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255,255,255,.48);
+    line-height: 24px;
+    display: block;
+
+}
+
+.text-area
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.28);
+    height: 100px;
+    color: #fff;
+    padding: 10px 0px 2px 0;
+    border-radius: 0;
+    margin-bottom: 50px;
+    width: 98%;
+    font-size: 14px;
+}
+
+input{
+    width: 95%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    padding: 0rem;
+    font-size: 14px;
+    background: transparent;
+    border-color: rgba(255,255,255,.28);
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,.28);
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.text-area:focus{
+    outline: none;
+
+}
+
+.submit{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        padding: 10px 27px;
+        margin-bottom: 5px;
+        color: #000;
+        background: #fff;
+        display: inline-block;
+        border: none;
+        margin-top: 50px;
+        width: auto;
+        height: 2.5rem;
+        position: relative;
+        border-radius: 0;
+        height: 40px;
+}
+
+input[type="submit"]:hover, .button:hover, button:not(.sr-button):hover {
+    background: rgba(255,255,255,.69);
+    color: #000;
+    transition: 0.4s ease;
+}
+
+.facebook a:hover{
+    color: #446ebf;
+}
+
+.twitter a:hover{
+    color: #39aadc;
+}
+
+.instagram a:hover{
+    color: #95604b;
+}
+
+.dribbble a:hover{
+    color: #f14980;
 }
