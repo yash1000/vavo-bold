@@ -208,22 +208,6 @@ body
 
 
 
-.next-page a{
-    /* position: relative; */
-    text-decoration: none;
-}
-
-.last-section .next-page h1{
-    font-size: 64px;
-    font-weight: 700;
-    text-decoration: none;
-    z-index: 1;
-    margin: auto;
-    position: relative;
-    display: inline;
-    left: 25rem;
-    top: 25rem;
-}
 
 .common-text a{
     color: White;
@@ -231,41 +215,115 @@ body
 
 
 
-.module {
-    background-image: url('../assets/images/Monck/portfolio-main-28.jpg');
-    height: 100%;
-    width: 100%;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    z-index: 0;
-    display: inline-block;
-    position: absolute;
-   
-  }
 
-  
-
-
-
-
-
-
-
-/*
-.next-page a{
+.sidebar-share div, .sidebar a {
     text-decoration: none;
+    color: white !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
 }
 
-.caroline{
-    width: 500px;
-    height: 300px;
-    display: none;
-    left: 0%;
-    pointer-events: none;
-    transform-origin: top;
-    margin: auto;
+.sidebar-share, .sidebar{
+    z-index: 100;
+}
 
-} */
+#footer{
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.footer-content h6{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.footer-content ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content li{
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-content li a{
+    color: rgba(255,255,255,0.55);
+    padding-right: 30px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.copyright h6:hover{
+    color: rgba(255,255,255,1);
+}
+
+.copyright h6{
+    float: right;
+    padding-top: 35px;
+    color: rgba(255,255,255,0.55);
+    font-size: 12px;
+    line-height: 19px;
+    transition: all 0.2s ease;
+}
+
+.facebook a:hover{
+    color: #385994!important;
+}
+.twitter a:hover{
+    color: #56a0c0!important;
+}
+
+.instagram a:hover{
+    color: #95604b!important;
+}
+
+.dribbble a:hover{
+    color: #f14980!important;
+}
+
+
+
+.nav-inner-wrapper {
+    margin: auto;
+    max-width: 1189px;
+    margin-top: 1rem;
+}
+
+header ul li a,header ul li a:hover{
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.nav-hover:hover::before,.navigation-selected::before {
+    transition: width 0.4s cubic-bezier(0.04, 0.03, 0, 1.01);
+    position: absolute!important;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: rgba(255,255,255,.5);
+    bottom: 0px;
+    left: 0;
+}
+.line {
+    height: 2px;
+    position: absolute;
+    justify-content: center;
+    transition: all ease 0.45s;
+    background-color: white;
+}
+
+
+
 
 /* -----------------------------------------media queries------------------------------------------ */
 
