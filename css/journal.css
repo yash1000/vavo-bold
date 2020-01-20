@@ -1,4 +1,4 @@
-header ul li a,header ul li a:hover{
+/* header ul li a,header ul li a:hover{
     color: white;
 }
 .line{
@@ -25,7 +25,42 @@ header ul li a:hover .navlist-hover{
 }
 .nav-hover:hover::before, .navigation-selected::before {
     background-color: rgba(255,255,255,0.5);
+} */
+
+
+.line {
+    background-color: White;
 }
+header ul li a, header ul li a:hover {
+    font-size: .45rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.list-box {
+    height: 16px;
+}
+.nav-hover:hover::before, .navigation-selected::before {
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+}.line {
+    background-color: White;
+}
+header ul li a, header ul li a:hover {
+    font-size: .45rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.list-box {
+    height: 16px;
+}
+.nav-hover:hover::before, .navigation-selected::before {
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 body{
     background-image: url('../assets/images/Journal/blog-bg.jpg');
@@ -140,11 +175,14 @@ a{
     word-wrap: normal; 
     
 }
+.page-pagination{
+    margin: 80px 0 40px 0;
+    overflow: hidden;
+}
 .pg-pagination{
     margin: 80px 0 40px 0;
     overflow: hidden;
     font-size: 15px;
-    text-align: center;
 }
 .pg-pagination a{
     border-bottom: 1px solid rgba(255, 255, 255, 0.48);
@@ -158,40 +196,43 @@ a{
     text-align: center;
     transition: all 0.45s cubic-bezier(0.195, 0.290, 0.045, 0.995) 0.4s;
 }
-/* .pagination li {
+.pagination li {
     padding: 0;
     display: inline-block;
     margin: 0 3px;
-} */
+}
 .inactive{
     pointer-events: none;
     opacity: 0.15;
 }
-/* .pagination li.previous{
+.previous{
     text-align: left;
     float: left;
     width: 90px;
     margin-right: 15px;
-} */
-/* .pagination li.previous a{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
 }
-.pagination li.page{
+.pagination li.previous a{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+    text-decoration: none;
+}
+.page{
     display: inline-block;
     float: none;
-    position: none;
-    text-align: center;
-} */
+    position: relative;
+    /* text-align: center; */
+}
 .page span{
-    display: inline-block;
+    display: block;
     transition: all 0.2s ease;
     text-align: center;
-    color: #fff;
     font-weight: 400;
     font-size: 12px;
     line-height: 19px;
     padding: 0 5px;
     max-width: 100%;
+}
+.current{
+    color: #fff;
 }
 .page a{
     transition: all 0.2s ease;
@@ -203,16 +244,20 @@ a{
     padding: 0px 5px;
     text-decoration: none;
 }
-/* .pagination li:first-child{
+.page a:hover{
+    color: white;
+}
+.pagination li:first-child{
     margin-left: 0;
 }
 ul li:first-child {
     margin-top: 0;
-} */
+}
 .btn-style{
     color: #fff;
     border-color: (255,255,255,.28);
     background: none;
+    line-height: 20px;
     line-height: 20px;
     height: 20px;
     padding: 0;
@@ -228,16 +273,25 @@ ul li:first-child {
     font-weight: 400;
 }
 .next{
-    /* margin-left: px; */
-    float: right;
+    right: 0;
     text-align: right;
     width: 90px;
-    right: 20%;
+    position: absolute;
 }
+
+#center{
+    position: absolute;
+    left: 45%;
+}
+
 .next a{
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.48);
     margin-left: 20px;
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 #footer{
@@ -292,6 +346,19 @@ ul li:first-child {
     padding: 5px 30px 0 0;
     opacity: .48;
     display: inline-flex;
+    text-decoration: none;
+}
+.facebook a:hover{
+    color: rgb(74, 74, 170);
+}
+.twitter a:hover{
+    color: cornflowerblue;
+}
+.instagram a:hover{
+    color: orange;
+}
+.dribble a:hover{
+    color: orchid;
 }
 .right-col{
     text-align: right;
@@ -305,6 +372,7 @@ ul li:first-child {
 .copyright a{
     color: rgba(255, 255, 255, 0.48);
     border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+    text-decoration: none;
 }
 .ht{
     height: 30px;

@@ -93,3 +93,42 @@ function moveImageStorm(e){
     document.getElementById('myImage-storm').style.left =deltaX+"%" ;
     document.getElementById('myImage-storm').style.top =deltaY+"%" ;
 }
+
+function addImageInside(){
+    document.getElementById('myImage-inside').style.display = "block";
+}
+function removeImageInside(){
+    document.getElementById('myImage-inside').style.display = "none";
+}
+function moveImageInside(e){
+    var deltaX = parseInt(e.clientX/screen.width*90)-100;
+    var deltaY = parseInt(e.clientY/screen.height*40);
+    document.getElementById('myImage-inside').style.left =deltaX+"%" ;
+    document.getElementById('myImage-inside').style.top =deltaY+"%" ;
+}
+
+function addImageFachwerkhaus(){
+    document.getElementById('myImage-Fachwerkhaus').style.display = "block";
+}
+function removeImageFachwerkhaus(){
+    document.getElementById('myImage-Fachwerkhaus').style.display = "none";
+}
+function moveImageFachwerkhaus(e){
+    var deltaX = parseInt(e.clientX/screen.width*90)-100;
+    var deltaY = parseInt(e.clientY/screen.height*60);
+    document.getElementById('myImage-Fachwerkhaus').style.left =deltaX+"%" ;
+    document.getElementById('myImage-Fachwerkhaus').style.top =deltaY+"%" ;
+}
+
+function addImageRoutine(){
+    document.getElementById('myImage-routine').style.display = "block";
+}
+function removeImageRoutine(){
+    document.getElementById('myImage-routine').style.display = "none";
+}
+function moveImageRoutine(e){
+    var deltaX = parseInt(e.clientX/screen.width*90)-100;
+    var deltaY = parseInt(e.clientY/screen.height*80);
+    document.getElementById('myImage-routine').style.left =deltaX+"%" ;
+    document.getElementById('myImage-routine').style.top =deltaY+"%" ;
+}
